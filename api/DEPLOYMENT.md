@@ -22,8 +22,8 @@ Set them as environment variables — `__` is the separator for nesting:
 Storefront__Database__ConnectionString="Server=localhost;Port=3306;Database=gopicrackers;User ID=gopi;Password=…;"
 Storefront__Database__ServerVersion="8.0.36-mysql"     # or "10.11.6-mariadb"
 Storefront__Admin__Passcode="…"
-Storefront__AllowedOrigins__0="https://gopicrackers.com"
-Storefront__AllowedOrigins__1="https://admin.gopicrackers.com"
+Storefront__AllowedOrigins__0="https://admin.skvpyros.in"
+# plus the storefront's own URL, and the localhost entries you still want
 ```
 
 `ConnectionStrings__GopiCrackers` works too, if your host only knows how to set
@@ -93,8 +93,8 @@ Environment=ASPNETCORE_URLS=http://127.0.0.1:5000
 Environment=Storefront__Database__ConnectionString=Server=localhost;Port=3306;Database=gopicrackers;User ID=gopi;Password=…;
 Environment=Storefront__Database__ServerVersion=8.0.36-mysql
 Environment=Storefront__Admin__Passcode=…
-Environment=Storefront__AllowedOrigins__0=https://gopicrackers.com
-Environment=Storefront__AllowedOrigins__1=https://admin.gopicrackers.com
+# AllowedOrigins is set in appsettings.json instead — an array reads badly
+# as environment variables, and none of it is secret.
 
 [Install]
 WantedBy=multi-user.target
@@ -135,7 +135,7 @@ Kestrel itself faces the internet.
 ## 5. Check it worked
 
 ```bash
-curl -s https://gopicrackers.com/api/health | jq
+curl -s https://api.skvpyros.in/api/health | jq
 ```
 
 `storage.backend` must say `mysql`. If it says `files`, the connection string
@@ -144,7 +144,7 @@ did not reach the process.
 Then, with your passcode:
 
 ```bash
-curl -s -H "X-Admin-Passcode: …" https://gopicrackers.com/api/admin/database | jq
+curl -s -H "X-Admin-Passcode: …" https://api.skvpyros.in/api/admin/database | jq
 ```
 
 You want `canConnect: true`, `pendingMigrations: []`, `error: null`, and
@@ -177,6 +177,73 @@ the VPS's localhost, run it there, or open an SSH tunnel.
 
 ---
 
+## 7. The two front ends
+
+> The storefront and the admin live in the **Fire-Crackers** repo, not this
+> one. The files named below are there. This section is here because the two
+> halves have to agree about the URL, and that agreement is a deployment
+> concern rather than a front-end one.
+
+Both apps read one variable, `VITE_API_URL`, and it must include the `/api`
+suffix — the clients ask for paths like `/bootstrap` and `/admin/summary`, and
+that is what they hang off.
+
+It is already set for production builds, in `.env.production` at the repo root
+(storefront) and in `admin/.env.production`:
+
+```
+VITE_API_URL=https://api.skvpyros.in/api
+```
+
+Vite inlines this at **build time**, so changing it means rebuilding — there is
+no runtime config to edit on the server:
+
+```bash
+npm run build          # storefront -> dist/
+npm run build:admin    # admin      -> admin/dist/
+```
+
+Leave it unset and the clients fall back to a same-origin `/api`, which is what
+the dev server proxies.
+
+### Three things that must line up
+
+**1. The API must answer over HTTPS.** A page served over HTTPS may not fetch
+over plain HTTP — the browser blocks it as mixed content before the request is
+sent, so an `http://` → `https://` redirect does not help. Every request fails
+and the shop shows its offline fallback.
+
+**2. Both origins must be in `Storefront:AllowedOrigins`.** CORS is enforced in
+the browser, not in the API: an origin that is not listed still receives a
+normal 200, and the browser discards it before the app sees it. Nothing appears
+in the API's logs. `https://admin.skvpyros.in` is listed; **the storefront's own
+URL still needs adding** once its domain is decided.
+
+Setting that key in `appsettings.json` *replaces* the built-in list rather than
+adding to it, so the eight localhost entries have to stay or local development
+stops working against the API. `CorsTests` guards both halves of that.
+
+**3. The admin needs a passcode.** `Storefront:Admin:Passcode` blank means every
+admin endpoint answers 503 and the gate cannot let anyone in.
+
+### Working locally against the live API
+
+`npm run dev` proxies `/api` to `http://localhost:5080` by default. To point a
+dev server at the deployed API instead — no CORS involved, because the proxy
+makes it same-origin:
+
+```bash
+VITE_API_TARGET=https://api.skvpyros.in npm run dev
+```
+
+### If the shop and the API ever share a domain
+
+Serving the API under the shop's own origin — an nginx rule sending `/api` to
+it — is the simpler setup: drop `VITE_API_URL`, and the same-origin default
+applies. No CORS, no preflight, and mixed content becomes impossible.
+
+---
+
 ## Troubleshooting
 
 **"Could not reach the MySQL server to create '…'"** — the server did not
@@ -198,3 +265,18 @@ depending on the database being awake.
 
 **Every request redirects forever** — nginx is not sending
 `X-Forwarded-Proto`, or `BehindReverseProxy` was turned off.
+
+**The shop loads but every panel is empty, and the API's logs look fine** —
+this is CORS. The requests are arriving and being answered; the browser is
+discarding the responses. The console will name the origin it wanted allowed.
+Add that exact string — scheme, host and port all have to match.
+
+**The console says "Mixed Content" or "blocked: mixed-content"** — the page is
+HTTPS and `VITE_API_URL` is `http://`. Fix TLS on the API; a redirect will not
+do.
+
+**Requests go to `https://api.skvpyros.in/products` and 404** — `VITE_API_URL`
+is missing its `/api` suffix.
+
+**A rebuilt front end still calls the old URL** — Vite inlines `VITE_API_URL`
+at build time. Rebuild, and make sure the host is serving the new `dist/`.

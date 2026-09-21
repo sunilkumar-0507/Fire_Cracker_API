@@ -1,0 +1,8 @@
+# Runtime records the API writes when it runs on the JSON backend, not source.
+# The order book is trade and the analytics are a rolling window of counters —
+# neither belongs in git, and this repository is public. They are seeded as
+# empty and recreated on demand, so their absence costs nothing.
+src/data/orders.json
+src/data/analytics.json
+src/data/stock-intake.json
+src/data/*.tmp
