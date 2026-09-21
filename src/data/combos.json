@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cmb-01",
+    "slug": "family-festival-box",
+    "name": "Family Festival Box",
+    "tagline": "One evening, one box, everybody covered",
+    "description": "Built after watching what families actually run out of first. Heavy on fountains and sparklers, one aerial cake for the finish, and just enough sound crackers to keep the traditionalists happy.",
+    "art": "giftbox",
+    "accent": "#F5567F",
+    "price": 2419,
+    "mrp": 10752,
+    "discount": 78,
+    "saves": 8333,
+    "itemCount": 29,
+    "serves": "6–8 people",
+    "duration": "About 90 minutes",
+    "badge": "Most popular",
+    "stock": 34,
+    "featured": true,
+    "includes": [
+      {
+        "name": "Flower Pot Big",
+        "slug": "flower-pot-big",
+        "qty": 6
+      },
+      {
+        "name": "Ground Chakkar Big",
+        "slug": "ground-chakkar-big",
+        "qty": 6
+      },
+      {
+        "name": "30 cm Colour Sparkler",
+        "slug": "30-cm-colour-sparkler",
+        "qty": 6
+      },
+      {
+        "name": "100 Wala",
+        "slug": "100-wala",
+        "qty": 4
+      },
+      {
+        "name": "Flower Pot Special",
+        "slug": "flower-pot-special",
+        "qty": 2
+      },
+      {
+        "name": "Match Box Dora",
+        "slug": "match-box-dora",
+        "qty": 2
+      },
+      {
+        "name": "4″ Lakshmi",
+        "slug": "4-inch-lakshmi",
+        "qty": 2
+      },
+      {
+        "name": "25 Shot Multi Colour",
+        "slug": "25-shot-multi-colour",
+        "qty": 1
+      }
+    ],
+    "tone": "berry"
+  },
+  {
+    "id": "cmb-02",
+    "slug": "silent-celebration-pack",
+    "name": "Silent Celebration Pack",
+    "tagline": "All of the light, none of the noise",
+    "description": "Not a single report in the box. We put this together for families with newborns, elderly parents, or a dog that spends every Diwali under the bed — and it turned into one of our best sellers.",
+    "art": "sparkler",
+    "accent": "#22C9AE",
+    "price": 1764,
+    "mrp": 7840,
+    "discount": 78,
+    "saves": 6076,
+    "itemCount": 21,
+    "serves": "4–6 people",
+    "duration": "About 60 minutes",
+    "badge": "Pet friendly",
+    "stock": 41,
+    "featured": true,
+    "includes": [
+      {
+        "name": "15 cm Colour Sparkler",
+        "slug": "15-cm-colour-sparkler",
+        "qty": 6
+      },
+      {
+        "name": "30 cm Electric Sparkler",
+        "slug": "30-cm-electric-sparkler",
+        "qty": 6
+      },
+      {
+        "name": "1½″ Twinkling Star",
+        "slug": "1-5-inch-twinkling-star",
+        "qty": 4
+      },
+      {
+        "name": "Water Queen",
+        "slug": "water-queen",
+        "qty": 2
+      },
+      {
+        "name": "Magic Paper Pop Pop",
+        "slug": "magic-paper-pop-pop",
+        "qty": 2
+      },
+      {
+        "name": "Colour Smoke",
+        "slug": "colour-smoke",
+        "qty": 1
+      }
+    ],
+    "tone": "mint"
+  },
+  {
+    "id": "cmb-03",
+    "slug": "kids-safe-hamper",
+    "name": "Kids Safe Hamper",
+    "tagline": "Everything a child may light unsupervised — almost",
+    "description": "Low flame, low noise, nothing that leaves the ground. The hamper we hand over when parents ask what the eight-year-old is allowed to hold.",
+    "art": "kids",
+    "accent": "#C273F5",
+    "price": 1096,
+    "mrp": 4872,
+    "discount": 78,
+    "saves": 3776,
+    "itemCount": 20,
+    "serves": "3–5 children",
+    "duration": "About 45 minutes",
+    "badge": "Parent approved",
+    "stock": 63,
+    "featured": true,
+    "includes": [
+      {
+        "name": "10 cm Colour Sparkler",
+        "slug": "10-cm-colour-sparkler",
+        "qty": 6
+      },
+      {
+        "name": "Magic Paper Pop Pop",
+        "slug": "magic-paper-pop-pop",
+        "qty": 4
+      },
+      {
+        "name": "Match Box Dora",
+        "slug": "match-box-dora",
+        "qty": 3
+      },
+      {
+        "name": "Ring Cap",
+        "slug": "ring-cap",
+        "qty": 3
+      },
+      {
+        "name": "Butterfly",
+        "slug": "butterfly",
+        "qty": 2
+      },
+      {
+        "name": "Helicopter",
+        "slug": "helicopter",
+        "qty": 1
+      },
+      {
+        "name": "Robo Kids",
+        "slug": "robo-kids",
+        "qty": 1
+      }
+    ],
+    "tone": "royal"
+  },
+  {
+    "id": "cmb-04",
+    "slug": "grand-terrace-show",
+    "name": "Grand Terrace Show",
+    "tagline": "A twenty-minute programme, sequenced for you",
+    "description": "Three aerial cakes, a fountain tower and a rocket set, arranged in the order we would light them. A printed running order comes in the box so nobody has to improvise in the dark.",
+    "art": "aerial",
+    "accent": "#FFB238",
+    "price": 6098,
+    "mrp": 27104,
+    "discount": 78,
+    "saves": 21006,
+    "itemCount": 15,
+    "serves": "10–15 people",
+    "duration": "About 20 minutes of continuous show",
+    "badge": "Choreographed",
+    "stock": 17,
+    "featured": true,
+    "includes": [
+      {
+        "name": "Flower Pot Big",
+        "slug": "flower-pot-big",
+        "qty": 4
+      },
+      {
+        "name": "Ground Chakkar Big",
+        "slug": "ground-chakkar-big",
+        "qty": 4
+      },
+      {
+        "name": "4½″ Single",
+        "slug": "4-5-inch-single",
+        "qty": 2
+      },
+      {
+        "name": "50 cm Colour Sparkler",
+        "slug": "50-cm-colour-sparkler",
+        "qty": 2
+      },
+      {
+        "name": "120 Shot Multi Colour",
+        "slug": "120-shot-multi-colour",
+        "qty": 1
+      },
+      {
+        "name": "60 Shot Multi Colour",
+        "slug": "60-shot-multi-colour",
+        "qty": 1
+      },
+      {
+        "name": "Monster Pot Super Deluxe",
+        "slug": "monster-pot-super-deluxe",
+        "qty": 1
+      }
+    ],
+    "tone": "amber"
+  },
+  {
+    "id": "cmb-05",
+    "slug": "budget-starter-pack",
+    "name": "Budget Starter Pack",
+    "tagline": "The whole festival, under a thousand rupees",
+    "description": "The smallest box we make that still feels like a proper Diwali. A little of everything, nothing wasted, and no upsell hidden in the packaging.",
+    "art": "flowerpot",
+    "accent": "#E67A00",
+    "price": 920,
+    "mrp": 4088,
+    "discount": 77,
+    "saves": 3168,
+    "itemCount": 14,
+    "serves": "2–4 people",
+    "duration": "About 30 minutes",
+    "badge": "Best value",
+    "stock": 87,
+    "featured": false,
+    "includes": [
+      {
+        "name": "15 cm Colour Sparkler",
+        "slug": "15-cm-colour-sparkler",
+        "qty": 4
+      },
+      {
+        "name": "Flower Pot Big",
+        "slug": "flower-pot-big",
+        "qty": 3
+      },
+      {
+        "name": "Ground Chakkar Big",
+        "slug": "ground-chakkar-big",
+        "qty": 2
+      },
+      {
+        "name": "100 Wala",
+        "slug": "100-wala",
+        "qty": 2
+      },
+      {
+        "name": "4″ Lakshmi",
+        "slug": "4-inch-lakshmi",
+        "qty": 2
+      },
+      {
+        "name": "100 Bijili",
+        "slug": "100-bijili",
+        "qty": 1
+      }
+    ],
+    "tone": "ember"
+  },
+  {
+    "id": "cmb-06",
+    "slug": "office-gifting-carton",
+    "name": "Office Gifting Carton",
+    "tagline": "Twenty-five boxes, one invoice, one delivery",
+    "description": "Twenty-five Mini Gift Boxes in a single carton with a GST invoice and optional printed sleeve carrying your company name. Ordered every October by people who left it slightly too late.",
+    "art": "giftbox",
+    "accent": "#C273F5",
+    "price": 12285,
+    "mrp": 54600,
+    "discount": 78,
+    "saves": 42315,
+    "itemCount": 25,
+    "serves": "25 recipients",
+    "duration": "—",
+    "badge": "Bulk",
+    "stock": 12,
+    "featured": false,
+    "includes": [
+      {
+        "name": "30 Item Gift Box",
+        "slug": "30-item-gift-box",
+        "qty": 15
+      },
+      {
+        "name": "20 Item Gift Box",
+        "slug": "20-item-gift-box",
+        "qty": 10
+      },
+      {
+        "name": "Printed company sleeve on every box",
+        "qty": 25
+      },
+      {
+        "name": "GST invoice + delivery challan",
+        "qty": 1
+      }
+    ],
+    "tone": "royal"
+  }
+]

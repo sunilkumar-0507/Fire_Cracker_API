@@ -1,0 +1,3 @@
+# .NET build output — restored and rebuilt from the csproj, not source.
+bin/
+obj/

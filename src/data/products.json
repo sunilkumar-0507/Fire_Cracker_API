@@ -1,0 +1,6670 @@
+[
+  {
+    "id": "p-001",
+    "code": "01",
+    "slug": "2-75-inch-kuruvi",
+    "name": "2¾″ Kuruvi",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 10,
+    "mrp": 40,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The smallest single-report cracker we make and the one that starts most children off. A crisp, dry crack rather than a chest-thump, sold by the box so a strip of them can be lit one after another down a driveway.",
+    "highlights": [
+      "Lightest report in the one-sound range",
+      "Short 6-second fuse",
+      "Sold by the box of 10"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/kuruvii.jfif"
+    ],
+    "stock": 74,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "01",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-002",
+    "code": "02",
+    "slug": "3-5-inch-lakshmi",
+    "name": "3½″ Lakshmi",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 21,
+    "mrp": 84,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The classic Lakshmi in its 3½ inch size — the everyday festival cracker of Tamil Nadu. Tight-rolled paper casing, clean single report, and no smouldering remains to clear up afterwards.",
+    "highlights": [
+      "Single clean report",
+      "Tight-rolled casing, no misfire tail",
+      "The standard festival size"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/3_2_lakshmi.jfif"
+    ],
+    "stock": 196,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "02",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-003",
+    "code": "03",
+    "slug": "4-inch-lakshmi",
+    "name": "4″ Lakshmi",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 28,
+    "mrp": 112,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "A full inch more casing than the 3½, and it tells. The 4 inch Lakshmi is the size most families settle on once they have tried both — noticeably deeper without moving into deluxe pricing.",
+    "highlights": [
+      "Deeper report than the 3½",
+      "Even burn down the fuse",
+      "Box of 10 for the evening"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/4_ Lakshmi.jfif"
+    ],
+    "stock": 221,
+    "tags": [
+      "loud",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "03",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-004",
+    "code": "04",
+    "slug": "4-inch-lakshmi-deluxe",
+    "name": "4″ Lakshmi Deluxe",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 48,
+    "mrp": 192,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The deluxe grade of our 4 inch Lakshmi: same size, heavier charge, and a harder paper wrap that holds the pressure longer before it lets go. That extra fraction of a second is the whole difference.",
+    "highlights": [
+      "Heavier charge than standard 4 inch",
+      "Reinforced wrap for a sharper report",
+      "Graded and boxed by hand"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/lakshmi.jfif",
+      "GOPI Crackers/one_sound_blast/4_ Lakshmi.jfif"
+    ],
+    "stock": 153,
+    "tags": [
+      "loud",
+      "value",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "04",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-005",
+    "code": "05",
+    "slug": "4-inch-gold-lakshmi",
+    "name": "4″ Gold Lakshmi",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 50,
+    "mrp": 200,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "Our top Lakshmi. Gold-foiled casing, the heaviest charge the 4 inch format takes, and the one we put out for the first light of the morning.",
+    "highlights": [
+      "Heaviest 4 inch charge in the range",
+      "Gold-foiled casing",
+      "The traditional dawn cracker"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/gold_lakhmi.jfif",
+      "GOPI Crackers/one_sound_blast/lakshmi.jfif"
+    ],
+    "stock": 174,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "05",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-006",
+    "code": "06",
+    "slug": "5-inch-bahubali",
+    "name": "5″ Bahubali",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 112,
+    "mrp": 448,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "Five inches of casing and a report you feel before you hear. Bahubali is for open ground only — a courtyard is not enough space for it.",
+    "highlights": [
+      "5 inch casing, the largest single sound we sell",
+      "Open ground only, 15 metre clearance",
+      "Within the 125 dB PESO ceiling"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/6_super deluxe.jfif",
+      "GOPI Crackers/one_sound_blast/hulk.jfif"
+    ],
+    "stock": 207,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "06",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-007",
+    "code": "07",
+    "slug": "ola-vedi",
+    "name": "Ola Vedi",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The old Sivakasi ola vedi, still made the way it always was — palm-leaf wrapped and hand-tied in a long chain. Nothing modern sounds quite like it, which is exactly why it is still in the list.",
+    "highlights": [
+      "Traditional palm-leaf wrap",
+      "Hand-tied chain, lit from one end",
+      "Made the original way"
+    ],
+    "images": [
+      "GOPI Crackers/one_sound_blast/jallikttu.jfif",
+      "GOPI Crackers/one_sound_blast/6_super deluxe.jfif"
+    ],
+    "stock": 162,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "07",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-008",
+    "code": "08",
+    "slug": "28-chorsa",
+    "name": "28 Chorsa",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 28,
+    "mrp": 112,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "A 28-sound chorsa chain — the short garland, tied flat so it can be laid along a wall or a step rather than hung. Runs through all 28 in about 7 seconds.",
+    "highlights": [
+      "28 sounds on one fuse",
+      "Ties flat — lay it along a wall",
+      "The short-format garland"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/28 Giant.jfif"
+    ],
+    "stock": 86,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "08",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-009",
+    "code": "09",
+    "slug": "56-chorsa",
+    "name": "56 Chorsa",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "A 56-sound chorsa chain — the short garland, tied flat so it can be laid along a wall or a step rather than hung. Runs through all 56 in about 14 seconds.",
+    "highlights": [
+      "56 sounds on one fuse",
+      "Ties flat — lay it along a wall",
+      "The short-format garland"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/56 Giant.jfif"
+    ],
+    "stock": 116,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "09",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-010",
+    "code": "10",
+    "slug": "28-giant",
+    "name": "28 Giant",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 35,
+    "mrp": 140,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The giant grade of the 28 chain: same count, heavier charge on every cracker, so it lands harder and carries further across open ground.",
+    "highlights": [
+      "28 sounds, heavier charge than the Chorsa",
+      "Carries further across open ground",
+      "Hand-tied and inspected"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/28 Giant.jfif",
+      "GOPI Crackers/REPEATING_SOUND/24 Deluxe.jfif"
+    ],
+    "stock": 107,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "10",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-011",
+    "code": "11",
+    "slug": "56-giant",
+    "name": "56 Giant",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The giant grade of the 56 chain: same count, heavier charge on every cracker, so it lands harder and carries further across open ground.",
+    "highlights": [
+      "56 sounds, heavier charge than the Chorsa",
+      "Carries further across open ground",
+      "Hand-tied and inspected"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/56 Giant.jfif",
+      "GOPI Crackers/REPEATING_SOUND/28 Giant.jfif"
+    ],
+    "stock": 145,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "11",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-012",
+    "code": "12",
+    "slug": "24-deluxe",
+    "name": "24 Deluxe",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "24 deluxe crackers on a single chain. The deluxe composition gives a fuller, rounder report than the standard garland and holds a steady rhythm the whole way down.",
+    "highlights": [
+      "24 sounds on one fuse",
+      "Fuller report than the standard garland",
+      "Even rhythm from first to last"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/24 Deluxe.jfif"
+    ],
+    "stock": 185,
+    "tags": [
+      "loud",
+      "value",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "12",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-013",
+    "code": "13",
+    "slug": "150-deluxe",
+    "name": "150 Deluxe",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "150 deluxe crackers on a single chain. The deluxe composition gives a fuller, rounder report than the standard garland and holds a steady rhythm the whole way down.",
+    "highlights": [
+      "150 sounds on one fuse",
+      "Fuller report than the standard garland",
+      "Even rhythm from first to last"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/24 Deluxe.jfif",
+      "GOPI Crackers/REPEATING_SOUND/0.1 K Wala.jfif"
+    ],
+    "stock": 148,
+    "tags": [
+      "loud",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "13",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-014",
+    "code": "14",
+    "slug": "100-deluxe",
+    "name": "100 Deluxe",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "100 deluxe crackers on a single chain. The deluxe composition gives a fuller, rounder report than the standard garland and holds a steady rhythm the whole way down.",
+    "highlights": [
+      "100 sounds on one fuse",
+      "Fuller report than the standard garland",
+      "Even rhythm from first to last"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/24 Deluxe.jfif",
+      "GOPI Crackers/REPEATING_SOUND/56 Giant.jfif"
+    ],
+    "stock": 206,
+    "tags": [
+      "loud",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "14",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-015",
+    "code": "15",
+    "slug": "100-wala",
+    "name": "100 Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 100 Wala — 100 sounds hung from a pole and lit once. Runs for roughly 8 seconds without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "100 sounds on a single fuse",
+      "Runs about 8 seconds without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/0.1 K Wala.jfif"
+    ],
+    "stock": 21,
+    "tags": [
+      "loud",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "15",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-016",
+    "code": "16",
+    "slug": "200-wala",
+    "name": "200 Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 200 Wala — 200 sounds hung from a pole and lit once. Runs for roughly 16 seconds without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "200 sounds on a single fuse",
+      "Runs about 16 seconds without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/0.1 K Wala.jfif",
+      "GOPI Crackers/REPEATING_SOUND/1 K Wala.jfif"
+    ],
+    "stock": 129,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "16",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-017",
+    "code": "17",
+    "slug": "300-wala",
+    "name": "300 Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 300 Wala — 300 sounds hung from a pole and lit once. Runs for roughly 25 seconds without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "300 sounds on a single fuse",
+      "Runs about 25 seconds without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/0.1 K Wala.jfif",
+      "GOPI Crackers/REPEATING_SOUND/2 K Wala.jfif"
+    ],
+    "stock": 111,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "17",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-018",
+    "code": "18",
+    "slug": "600-wala",
+    "name": "600 Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 600 Wala — 600 sounds hung from a pole and lit once. Runs for roughly 50 seconds without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "600 sounds on a single fuse",
+      "Runs about 50 seconds without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/1 K Wala.jfif",
+      "GOPI Crackers/REPEATING_SOUND/0.1 K Wala.jfif"
+    ],
+    "stock": 138,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "18",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-019",
+    "code": "19",
+    "slug": "1k-wala",
+    "name": "1K Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 1K Wala — 1,000 sounds hung from a pole and lit once. Runs for roughly 83 seconds without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "1,000 sounds on a single fuse",
+      "Runs about 83 seconds without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/1 K Wala.jfif"
+    ],
+    "stock": 218,
+    "tags": [
+      "loud",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "19",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-020",
+    "code": "20",
+    "slug": "2k-wala",
+    "name": "2K Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 560,
+    "mrp": 2240,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 2K Wala — 2,000 sounds hung from a pole and lit once. Runs for roughly 2 minutes without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "2,000 sounds on a single fuse",
+      "Runs about 2 minutes without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/2 K Wala.jfif"
+    ],
+    "stock": 74,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "20",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-021",
+    "code": "21",
+    "slug": "5k-wala",
+    "name": "5K Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 1400,
+    "mrp": 5600,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 5K Wala — 5,000 sounds hung from a pole and lit once. Runs for roughly 4 minutes without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "5,000 sounds on a single fuse",
+      "Runs about 4 minutes without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/5 K Wala.jfif"
+    ],
+    "stock": 95,
+    "tags": [
+      "loud",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "21",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-022",
+    "code": "22",
+    "slug": "10k-wala",
+    "name": "10K Wala",
+    "category": "garland-crackers",
+    "brand": "Gopi Crackers",
+    "price": 2800,
+    "mrp": 11200,
+    "discount": 75,
+    "unit": "Single garland",
+    "description": "The 10K Wala — 10,000 sounds hung from a pole and lit once. Runs for roughly 5 minutes without a gap in it, which is the whole point of a wala.",
+    "highlights": [
+      "10,000 sounds on a single fuse",
+      "Runs about 5 minutes without a gap",
+      "Hang from a pole, clear of walls"
+    ],
+    "images": [
+      "GOPI Crackers/REPEATING_SOUND/10 K Wala.jfif",
+      "GOPI Crackers/REPEATING_SOUND/5 K Wala.jfif"
+    ],
+    "stock": 211,
+    "tags": [
+      "loud",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "22",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Single garland"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-023",
+    "code": "23",
+    "slug": "50-bijili",
+    "name": "50 Bijili",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 28,
+    "mrp": 112,
+    "discount": 75,
+    "unit": "Pack of 50",
+    "description": "Fifty small paper crackers loose in a pack. The Bijili is the cracker children are handed first — a light snap, no flame to speak of, and enough of them in a bag to last the whole evening.",
+    "highlights": [
+      "50 crackers to a pack",
+      "Light snap, minimal flame",
+      "The traditional first cracker"
+    ],
+    "images": [
+      "GOPI Crackers/BIJILI CRACKERS/Red_Crackers.jfif"
+    ],
+    "stock": 52,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "23",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Pack of 50"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-024",
+    "code": "24",
+    "slug": "100-bijili",
+    "name": "100 Bijili",
+    "category": "one-sound-crackers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Pack of 100",
+    "description": "The hundred-count Bijili pack — the same small paper cracker, bought the way most families actually buy it. Works out cheaper per cracker than the fifty.",
+    "highlights": [
+      "100 crackers to a pack",
+      "Better value per cracker than the 50",
+      "Light snap, minimal flame"
+    ],
+    "images": [
+      "GOPI Crackers/BIJILI CRACKERS/Red_Crackers.jfif"
+    ],
+    "stock": 21,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "24",
+      "Noise": "High",
+      "Safe distance": "10 metres",
+      "Contents": "Pack of 100"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-025",
+    "code": "25",
+    "slug": "baby-bullet",
+    "name": "Baby Bullet",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The entry point of the bullet series. Compact casing, sharp report, and the least intimidating of the four to light.",
+    "highlights": [
+      "Smallest of the bullet series",
+      "Sharp, dry report",
+      "Box of 10"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Dino Bomb.jfif"
+    ],
+    "stock": 148,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "25",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-026",
+    "code": "26",
+    "slug": "mini-bullet",
+    "name": "Mini Bullet",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 84,
+    "mrp": 336,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "A step up from the Baby Bullet with a noticeably fuller sound. The size most people buy when they want a bomb but not the biggest one on the shelf.",
+    "highlights": [
+      "Fuller report than the Baby Bullet",
+      "Steady 8-second fuse",
+      "Box of 10"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Dino Bomb.jfif",
+      "GOPI Crackers/BOMB/Classic Bomb.jfif"
+    ],
+    "stock": 31,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "26",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-027",
+    "code": "27",
+    "slug": "mega-bullet",
+    "name": "Mega Bullet",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The largest of the bullets. Heavy casing, deep report, and a 10 metre safe distance we mean literally.",
+    "highlights": [
+      "Largest of the bullet series",
+      "10 metre safe distance",
+      "Heavy-wall casing"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Dino Bomb.jfif",
+      "GOPI Crackers/BOMB/King of King.jfif"
+    ],
+    "stock": 48,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "27",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-028",
+    "code": "28",
+    "slug": "atom-bomb",
+    "name": "Atom Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 84,
+    "mrp": 336,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The atom bomb needs no introduction in Sivakasi. Flat, hard report with no ring to it — the sound everyone pictures when they think of Diwali.",
+    "highlights": [
+      "The classic Sivakasi report",
+      "Flat, hard sound with no ring",
+      "Batch-tested under 125 dB"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Classic Bomb.jfif"
+    ],
+    "stock": 236,
+    "tags": [
+      "loud",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "28",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-029",
+    "code": "29",
+    "slug": "hydro-bomb",
+    "name": "Hydro Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 126,
+    "mrp": 504,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "Built around a denser charge than the atom bomb, so the report carries further across open ground. One of the loudest items we are permitted to sell.",
+    "highlights": [
+      "Carries further than the atom bomb",
+      "Denser charge, same casing size",
+      "Open ground only"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Classic Bomb.jfif",
+      "GOPI Crackers/BOMB/Dino Bomb.jfif"
+    ],
+    "stock": 128,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "29",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-030",
+    "code": "30",
+    "slug": "king-of-kings-bomb",
+    "name": "King of Kings Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 168,
+    "mrp": 672,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The King of Kings sits at the top of the standard bomb range. Reinforced casing, long fuse, and a report that will set off car alarms two streets over.",
+    "highlights": [
+      "Reinforced casing",
+      "Long fuse for a safe retreat",
+      "Top of the standard bomb range"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/King of King.jfif"
+    ],
+    "stock": 225,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "30",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-031",
+    "code": "31",
+    "slug": "classic-bomb",
+    "name": "Classic Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "Our own house bomb, unchanged since the nineties. If you grew up on Gopi crackers, this is the one you remember.",
+    "highlights": [
+      "The original house recipe",
+      "Unchanged since the nineties",
+      "Box of 10"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Classic Bomb.jfif",
+      "GOPI Crackers/BOMB/King of King.jfif"
+    ],
+    "stock": 128,
+    "tags": [
+      "loud",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "31",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-032",
+    "code": "32",
+    "slug": "digital-red-and-green-bomb",
+    "name": "Digital Red & Green Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "A bomb with a light show attached — a red flash and a green flash a beat apart, then the report. The most-photographed item in the bomb range.",
+    "highlights": [
+      "Red and green flash before the report",
+      "Two-stage timing",
+      "The showpiece of the bomb range"
+    ],
+    "images": [
+      "GOPI Crackers/BOMB/Digital Bomb.jfif",
+      "GOPI Crackers/BOMB/Classic Bomb.jfif"
+    ],
+    "stock": 182,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "32",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-033",
+    "code": "33",
+    "slug": "25-kg-paper-bomb",
+    "name": "¼ kg Paper Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single bomb",
+    "description": "A quarter kilo of paper bomb, tied the traditional nattu vedi way. Lit at ground level in open space, well away from walls that would reflect the blast.",
+    "highlights": [
+      "Quarter kilo charge",
+      "Traditional nattu vedi construction",
+      "Open ground, 20 metre clearance"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/Mini Paper Bomb.jfif"
+    ],
+    "stock": 169,
+    "tags": [
+      "loud",
+      "value"
+    ],
+    "specs": {
+      "Product code": "33",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Single bomb"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-034",
+    "code": "34",
+    "slug": "5-kg-paper-bomb",
+    "name": "½ kg Paper Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Single bomb",
+    "description": "Half a kilo, and the size most temple and village functions actually order. Hand-tied with a long jute fuse.",
+    "highlights": [
+      "Half kilo charge",
+      "Long jute fuse",
+      "The standard function size"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/½ kg Paper Bomb.jfif",
+      "GOPI Crackers/PAPER BOMB/Mini Paper Bomb.jfif"
+    ],
+    "stock": 90,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "34",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Single bomb"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-035",
+    "code": "35",
+    "slug": "1-kg-paper-bomb",
+    "name": "1 kg Paper Bomb",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single bomb",
+    "description": "A full kilo paper bomb — the largest nattu vedi we make, and one that needs a licensed hand and genuinely open ground.",
+    "highlights": [
+      "One kilo charge, the largest we make",
+      "Licensed handling recommended",
+      "30 metre clearance"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/1 kg Paper Bomb.jfif",
+      "GOPI Crackers/PAPER BOMB/½ kg Paper Bomb.jfif"
+    ],
+    "stock": 144,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "35",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Single bomb"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-036",
+    "code": "36",
+    "slug": "money-bank",
+    "name": "Money Bank",
+    "category": "bombs",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The money bank is a paper bomb with a party trick: the casing bursts into a shower of printed notes. Loud, then briefly ridiculous.",
+    "highlights": [
+      "Bursts into a shower of printed notes",
+      "Full paper-bomb report",
+      "A crowd favourite at weddings"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/Money Bank (3 Pcs).jfif"
+    ],
+    "stock": 75,
+    "tags": [
+      "loud"
+    ],
+    "specs": {
+      "Product code": "36",
+      "Noise": "High",
+      "Safe distance": "20 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-037",
+    "code": "37",
+    "slug": "ground-chakkar-big",
+    "name": "Ground Chakkar Big",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 98,
+    "mrp": 392,
+    "discount": 75,
+    "unit": "Pack of 25",
+    "description": "The standard ground chakkar, twenty-five to a pack. Balanced hub, even spin, and a bright gold disc that holds its shape for the full burn.",
+    "highlights": [
+      "25 chakkars to a pack",
+      "Balanced hub for a wobble-free spin",
+      "Around 20 seconds each"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Ground Chakkaram Big.jfif"
+    ],
+    "stock": 160,
+    "tags": [
+      "low-noise",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "37",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 25"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-038",
+    "code": "38",
+    "slug": "ground-chakkar-special",
+    "name": "Ground Chakkar Special",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 126,
+    "mrp": 504,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "A heavier charge on the same chassis as the Big. Spins longer and throws a wider disc, with a colour change about two-thirds through.",
+    "highlights": [
+      "Longer spin than the Big",
+      "Colour change two-thirds through",
+      "Wider disc of light"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Ground Chakkaram Special.jfif"
+    ],
+    "stock": 63,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "38",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-039",
+    "code": "39",
+    "slug": "ground-chakkar-ashoka",
+    "name": "Ground Chakkar Ashoka",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 168,
+    "mrp": 672,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The Ashoka grade runs close to forty seconds and steps through three colours as it goes. The one to lay out in a row when you want the ground covered.",
+    "highlights": [
+      "Around 40 seconds of spin",
+      "Three colour stages",
+      "Lays out well in a row"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Ground Chakkaram Special.jfif",
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Ground Chakkaram Big.jfif"
+    ],
+    "stock": 81,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "39",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-040",
+    "code": "40",
+    "slug": "ground-chakkar-deluxe",
+    "name": "Ground Chakkar Deluxe",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "Our deluxe chakkar: double-wound composition, a machined hub, and the longest, flattest spin in the range. It stays put instead of wandering across the floor.",
+    "highlights": [
+      "Longest spin in the range",
+      "Machined hub — stays where you put it",
+      "Double-wound composition"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Ground Chakkaram Deluxe.jfif"
+    ],
+    "stock": 74,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "40",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-041",
+    "code": "41",
+    "slug": "spinner-chakkar-special",
+    "name": "Spinner Chakkar Special",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The spinner leaves the ground. It winds up flat, lifts about a metre, and holds there spinning before it settles back down.",
+    "highlights": [
+      "Lifts about a metre off the ground",
+      "Spins in the air before settling",
+      "Pack of 5"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Spinner (Bambara) (5Pcs).jfif"
+    ],
+    "stock": 130,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "41",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-042",
+    "code": "42",
+    "slug": "spinner-chakkar-deluxe",
+    "name": "Spinner Chakkar Deluxe",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The deluxe spinner climbs higher and holds longer than the special, with a colour change at the top of the lift. Needs clear sky above — no awnings, no branches.",
+    "highlights": [
+      "Climbs higher than the Special",
+      "Colour change at the top of the lift",
+      "Needs clear space overhead"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Spinner (Bambara) (5Pcs).jfif",
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/4 x 4 Wheel.jfif"
+    ],
+    "stock": 160,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "42",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-043",
+    "code": "43",
+    "slug": "wire-chakkar-special",
+    "name": "Wire Chakkar Special",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "A wire-frame chakkar rather than a paper one, so it spins truer and lasts longer. Ten to a pack, and they can be nailed to a post to spin vertically.",
+    "highlights": [
+      "Wire frame — spins truer than paper",
+      "10 to a pack",
+      "Can be mounted on a post"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Wire Chakkar (10 Pcs).jfif"
+    ],
+    "stock": 25,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "43",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-044",
+    "code": "44",
+    "slug": "wire-chakkar-deluxe",
+    "name": "Wire Chakkar Deluxe",
+    "category": "ground-chakkar",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The deluxe wire chakkar, with a heavier composition on the same true-running frame. The longest burn of any ground item we sell.",
+    "highlights": [
+      "Longest burn of any ground item",
+      "Heavy composition on a wire frame",
+      "Mountable for vertical spin"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Wire Chakkar (10 Pcs).jfif",
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/4 x 4 Wheel.jfif"
+    ],
+    "stock": 50,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "44",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-045",
+    "code": "45",
+    "slug": "flower-pot-big",
+    "name": "Flower Pot Big",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 98,
+    "mrp": 392,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The everyday flower pot. A steady gold column about a metre high, running roughly forty seconds, with very little smoke left behind.",
+    "highlights": [
+      "About a metre of gold fountain",
+      "Roughly 40 seconds",
+      "Low smoke, low residue"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Big.jfif"
+    ],
+    "stock": 221,
+    "tags": [
+      "low-noise",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "45",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-046",
+    "code": "46",
+    "slug": "flower-pot-special",
+    "name": "Flower Pot Special",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 126,
+    "mrp": 504,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "A wider throat than the Big, so the column opens out rather than going straight up. Brighter and broader for the same burn time.",
+    "highlights": [
+      "Broader spread than the Big",
+      "Brighter gold composition",
+      "Around 45 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Special.jfif"
+    ],
+    "stock": 50,
+    "tags": [
+      "low-noise",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "46",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-047",
+    "code": "47",
+    "slug": "flower-pot-ashoka",
+    "name": "Flower Pot Ashoka",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 168,
+    "mrp": 672,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The Ashoka pot layers three compositions on top of each other — gold, then green, then crackling silver — so it changes character twice as it burns down.",
+    "highlights": [
+      "Three stacked compositions",
+      "Gold to green to crackling silver",
+      "Around 50 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Special.jfif",
+      "GOPI Crackers/FLOWER POTS/Flower Pots Big.jfif"
+    ],
+    "stock": 125,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "47",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-048",
+    "code": "48",
+    "slug": "flower-pot-deluxe",
+    "name": "Flower Pot Deluxe",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Pack of 5",
+    "description": "Five deluxe pots to a pack, each running close to a minute. Set them out in an arc and light the middle one first — the spread reads better than a straight line.",
+    "highlights": [
+      "Pack of 5",
+      "Close to a minute each",
+      "Layered colour through the burn"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Deluxe (5Pcs).jfif"
+    ],
+    "stock": 143,
+    "tags": [
+      "low-noise",
+      "premium",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "48",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 5"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-049",
+    "code": "49",
+    "slug": "flower-pot-super-deluxe",
+    "name": "Flower Pot Super Deluxe",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 2",
+    "description": "Two super deluxe pots, taller and heavier than the standard deluxe, throwing a column near two metres. The pair is sized for a front doorway.",
+    "highlights": [
+      "Column close to two metres",
+      "Pack of 2",
+      "Heavier charge than the Deluxe"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Giant.jfif"
+    ],
+    "stock": 134,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "49",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 2"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-050",
+    "code": "50",
+    "slug": "dazzling-pot-deluxe",
+    "name": "Dazzling Pot Deluxe",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The dazzling pot puts a crackling silver crown on top of a gold column. Loud enough to notice, bright enough to light a whole courtyard.",
+    "highlights": [
+      "Crackling silver crown over gold",
+      "Lights a full courtyard",
+      "Around 70 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Giant.jfif",
+      "GOPI Crackers/FLOWER POTS/Flower Pots Deluxe (5Pcs).jfif"
+    ],
+    "stock": 20,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "50",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-051",
+    "code": "51",
+    "slug": "colour-koti",
+    "name": "Colour Koti",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "Colour Koti runs through the full colour set — red, green, blue, violet — one after another out of a single pot, with no gold at all.",
+    "highlights": [
+      "Four colours, no gold",
+      "Clean transitions between stages",
+      "Around 60 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Colour Kotti.jfif"
+    ],
+    "stock": 46,
+    "tags": [
+      "low-noise",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "51",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-052",
+    "code": "52",
+    "slug": "colour-koti-deluxe",
+    "name": "Colour Koti Deluxe",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The deluxe Koti holds each colour longer and adds a fifth stage. The most colour you can get out of one ground item.",
+    "highlights": [
+      "Five colour stages",
+      "Longer hold on each colour",
+      "The most colourful pot we make"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Colour Kotti.jfif",
+      "GOPI Crackers/FLOWER POTS/Flower Pots Special.jfif"
+    ],
+    "stock": 155,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "52",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-053",
+    "code": "53",
+    "slug": "tri-colour-pot",
+    "name": "Tri Colour Pot",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Pack of 5",
+    "description": "Three pots, three colours — saffron, white and green, lit together. Popular for Independence Day as much as for Diwali.",
+    "highlights": [
+      "Saffron, white and green together",
+      "Pack of 5",
+      "Lit as a set"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Tricolor Fountain.jfif"
+    ],
+    "stock": 189,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "53",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 5"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-054",
+    "code": "54",
+    "slug": "colourful-crackling-pot",
+    "name": "Colourful Crackling Pot",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 490,
+    "mrp": 1960,
+    "discount": 75,
+    "unit": "Pack of 5",
+    "description": "Five pots of crackling colour. Each one throws a column that snaps and pops the whole way up rather than running silent.",
+    "highlights": [
+      "Crackling through the full burn",
+      "Pack of 5",
+      "Colour rather than gold"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Colour Rain (5 Pcs).jfif"
+    ],
+    "stock": 221,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "54",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 5"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-055",
+    "code": "55",
+    "slug": "ganga-jamuna",
+    "name": "Ganga Jamuna",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 5",
+    "description": "Ganga Jamuna runs two compositions side by side out of one pot — a gold column and a silver one, twisting around each other. Named for the two rivers, and it looks it.",
+    "highlights": [
+      "Two columns from one pot",
+      "Gold and silver, intertwined",
+      "Pack of 5"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Multicolor Fountain.jfif"
+    ],
+    "stock": 146,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "55",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 5"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-056",
+    "code": "56",
+    "slug": "soda-fountain",
+    "name": "Soda Fountain",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "Three tall tin fountains that run close to ninety seconds each — the longest burn of any pot in the list. Best lit one at a time so the show lasts.",
+    "highlights": [
+      "Close to 90 seconds each",
+      "Pack of 3",
+      "Tall tin casing, very stable"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Tin Beer Fountain.jfif"
+    ],
+    "stock": 27,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "56",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-057",
+    "code": "57",
+    "slug": "crackling-fountain-rolls-royce",
+    "name": "Crackling Fountain Rolls Royce",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 560,
+    "mrp": 2240,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "Three fountains of dense crackling silver, thick enough that the column reads as solid from a distance. The most expensive-looking thing on the ground.",
+    "highlights": [
+      "Dense crackling silver column",
+      "Pack of 3",
+      "Reads as solid from a distance"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Gold Laddu (Spl).jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Multicolor Fountain.jfif"
+    ],
+    "stock": 211,
+    "tags": [
+      "low-noise"
+    ],
+    "specs": {
+      "Product code": "57",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-058",
+    "code": "58",
+    "slug": "monster-pot-super-deluxe",
+    "name": "Monster Pot Super Deluxe",
+    "category": "flower-pots",
+    "brand": "Gopi Crackers",
+    "price": 980,
+    "mrp": 3920,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The largest pot we make. A single fountain running well over two metres for a minute and a half, changing through four compositions on the way. Give it space and let it be the finale.",
+    "highlights": [
+      "Over two metres of fountain",
+      "Four compositions in one pot",
+      "Around 90 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Giant.jfif",
+      "GOPI Crackers/FLOWER POTS/Flower Pots Kulfi.jpg"
+    ],
+    "stock": 62,
+    "tags": [
+      "low-noise",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "58",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-059",
+    "code": "59",
+    "slug": "helicopter",
+    "name": "Helicopter",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "A small ground item that lifts on a paper rotor, climbs three or four metres and comes back down spinning. No report at any stage.",
+    "highlights": [
+      "Climbs three to four metres",
+      "Silent throughout",
+      "Lands spinning"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Helicopter.jfif"
+    ],
+    "stock": 236,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "59",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-060",
+    "code": "60",
+    "slug": "bumbaram",
+    "name": "Bumbaram",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "The bumbaram spins flat on the ground and hums as it goes — the sound is the point. Old-fashioned and still one of the first things children ask for.",
+    "highlights": [
+      "Hums as it spins",
+      "Stays flat on the ground",
+      "No report"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING GROUND CHAKKARAM/Spinner (Bambara) (5Pcs).jfif"
+    ],
+    "stock": 140,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "60",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-061",
+    "code": "61",
+    "slug": "butterfly",
+    "name": "Butterfly",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Pack of 10",
+    "description": "Paper wings on a small rotor, lit at the base. It flutters rather than flies, in colour, about waist height. Genuinely silent.",
+    "highlights": [
+      "Flutters at waist height",
+      "Coloured paper wings",
+      "Silent — safe for small children"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Butterfly.jfif"
+    ],
+    "stock": 160,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "61",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Pack of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-062",
+    "code": "62",
+    "slug": "7-shot-multi-colour",
+    "name": "7 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "7 shots on one fuse, running about 6 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "7 shots, roughly 6 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/7 Shots.jfif"
+    ],
+    "stock": 202,
+    "tags": [
+      "loud",
+      "aerial",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "62",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-063",
+    "code": "63",
+    "slug": "12-shot-writer",
+    "name": "12 Shot Writer",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 224,
+    "mrp": 896,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "Twelve shots that write their break across the sky in sequence rather than firing straight up — the shots lean out left to right as the cake works through them.",
+    "highlights": [
+      "12 shots, fired in a fan",
+      "Breaks sweep left to right",
+      "Single fuse, single ignition"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/12 Star Colour Shot.jfif"
+    ],
+    "stock": 112,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "63",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-064",
+    "code": "64",
+    "slug": "12-shot-multi-colour",
+    "name": "12 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "12 shots on one fuse, running about 9 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "12 shots, roughly 9 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/12 Star Colour Shot.jfif",
+      "GOPI Crackers/CRACKLING SPECIAL/12 Shot Crackling.jfif"
+    ],
+    "stock": 222,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "64",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-065",
+    "code": "65",
+    "slug": "15-shot-smoke-day-shot",
+    "name": "15 Shot Smoke Day Shot",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 700,
+    "mrp": 2800,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "A daytime cake. Fifteen shots of dense coloured smoke instead of light, which is the only thing that reads properly against a bright sky.",
+    "highlights": [
+      "15 shots of coloured smoke",
+      "Built for daylight, not dark",
+      "The one cake that works at a wedding lunch"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/15 Multi Colour Shot.jfif"
+    ],
+    "stock": 112,
+    "tags": [
+      "loud",
+      "aerial",
+      "photo-friendly"
+    ],
+    "specs": {
+      "Product code": "65",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-066",
+    "code": "66",
+    "slug": "16-shot-sweet-sixteen",
+    "name": "16 Shot Sweet Sixteen",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 840,
+    "mrp": 3360,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "Sixteen shots timed close together so the breaks overlap rather than queue up. Short, dense and over quickly — sixteen seconds of sky, all at once.",
+    "highlights": [
+      "16 shots with overlapping breaks",
+      "Dense, fast sequence",
+      "Around 16 seconds end to end"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/15 Multi Colour Shot.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/Bride Squad 30 Shots.jfif"
+    ],
+    "stock": 57,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "66",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-067",
+    "code": "67",
+    "slug": "25-shot-multi-colour",
+    "name": "25 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 392,
+    "mrp": 1568,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "25 shots on one fuse, running about 20 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "25 shots, roughly 20 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/25 Multi Colour Shot.jfif"
+    ],
+    "stock": 27,
+    "tags": [
+      "loud",
+      "aerial",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "67",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-068",
+    "code": "68",
+    "slug": "25-shot-multi-colour-premium",
+    "name": "25 Shot Multi Colour Premium",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 532,
+    "mrp": 2128,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "25 shots on one fuse, running about 20 seconds. Premium composition throughout — bigger breaks, deeper colour and a noticeably harder report on each shot. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "25 shots, roughly 20 seconds",
+      "Premium composition, deeper colour",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/25 Multi Colour Shot.jfif",
+      "GOPI Crackers/CRACKLING SPECIAL/25 Shot Crackling.jfif"
+    ],
+    "stock": 196,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "68",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-069",
+    "code": "69",
+    "slug": "30-shot-multi-colour",
+    "name": "30 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 532,
+    "mrp": 2128,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "30 shots on one fuse, running about 24 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "30 shots, roughly 24 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/30 Multi Colour Shot.jfif"
+    ],
+    "stock": 59,
+    "tags": [
+      "loud",
+      "aerial",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "69",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-070",
+    "code": "70",
+    "slug": "30-shot-multi-colour-premium",
+    "name": "30 Shot Multi Colour Premium",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 672,
+    "mrp": 2688,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "30 shots on one fuse, running about 24 seconds. Premium composition throughout — bigger breaks, deeper colour and a noticeably harder report on each shot. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "30 shots, roughly 24 seconds",
+      "Premium composition, deeper colour",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/Pea Cock Dance 30 Shots.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/Bride Squad 30 Shots.jfif"
+    ],
+    "stock": 51,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "70",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-071",
+    "code": "71",
+    "slug": "60-shot-multi-colour",
+    "name": "60 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 1092,
+    "mrp": 4368,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "60 shots on one fuse, running about 48 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "60 shots, roughly 48 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/60 Multi Colour Shot.jfif"
+    ],
+    "stock": 88,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "71",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-072",
+    "code": "72",
+    "slug": "60-shot-multi-colour-premium",
+    "name": "60 Shot Multi Colour Premium",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 1372,
+    "mrp": 5488,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "60 shots on one fuse, running about 48 seconds. Premium composition throughout — bigger breaks, deeper colour and a noticeably harder report on each shot. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "60 shots, roughly 48 seconds",
+      "Premium composition, deeper colour",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/60 Multi Colour Shot.jfif",
+      "GOPI Crackers/CRACKLING SPECIAL/50 Shot Crackling.jfif"
+    ],
+    "stock": 56,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "72",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-073",
+    "code": "73",
+    "slug": "120-shot-multi-colour",
+    "name": "120 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 2100,
+    "mrp": 8400,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "120 shots on one fuse, running about 96 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "120 shots, roughly 96 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/120 Multi Colour Shot.jfif"
+    ],
+    "stock": 238,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "73",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-074",
+    "code": "74",
+    "slug": "120-shot-multi-colour-premium",
+    "name": "120 Shot Multi Colour Premium",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 2660,
+    "mrp": 10640,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "120 shots on one fuse, running about 96 seconds. Premium composition throughout — bigger breaks, deeper colour and a noticeably harder report on each shot. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "120 shots, roughly 96 seconds",
+      "Premium composition, deeper colour",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/120 Multi Colour Shot.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/100 Multi Colour Shot.jfif"
+    ],
+    "stock": 121,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "74",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-075",
+    "code": "75",
+    "slug": "240-shot-multi-colour",
+    "name": "240 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 4060,
+    "mrp": 16240,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "240 shots on one fuse, running about 192 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "240 shots, roughly 192 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/240 Multi Colour Shot.jfif"
+    ],
+    "stock": 206,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "75",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-076",
+    "code": "76",
+    "slug": "240-shot-multi-colour-premium",
+    "name": "240 Shot Multi Colour Premium",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 4900,
+    "mrp": 19600,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "240 shots on one fuse, running about 192 seconds. Premium composition throughout — bigger breaks, deeper colour and a noticeably harder report on each shot. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "240 shots, roughly 192 seconds",
+      "Premium composition, deeper colour",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/240 Multi Colour Shot.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/520 Multi Colour Shot.jfif"
+    ],
+    "stock": 165,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "76",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-077",
+    "code": "77",
+    "slug": "504-shot-multi-colour",
+    "name": "504 Shot Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 9800,
+    "mrp": 39200,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "504 shots on one fuse, running about 403 seconds. Pre-fused and single-ignition: light it once, step back, and let it work through the whole sequence on its own.",
+    "highlights": [
+      "504 shots, roughly 403 seconds",
+      "Single fuse, single ignition",
+      "Level the base before lighting"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/520 Multi Colour Shot.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/240 Multi Colour Shot.jfif"
+    ],
+    "stock": 104,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "77",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-078",
+    "code": "78",
+    "slug": "10-x-10-multi-colour",
+    "name": "10×10 Multi Colour",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 4060,
+    "mrp": 16240,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "A ten-by-ten grid — a hundred shots fired in rows across the sky. The widest spread of anything in the aerial range.",
+    "highlights": [
+      "100 shots in a 10 × 10 grid",
+      "Fires in rows for a wide spread",
+      "Multi-colour throughout"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/10 x 10 Color Full Shot.jfif"
+    ],
+    "stock": 117,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "78",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-079",
+    "code": "79",
+    "slug": "10-x-10-multi-colour-crackling",
+    "name": "10×10 Multi Colour Crackling",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 4900,
+    "mrp": 19600,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "A ten-by-ten grid — a hundred shots fired in rows across the sky finishing on crackling silver. The widest spread of anything in the aerial range.",
+    "highlights": [
+      "100 shots in a 10 × 10 grid",
+      "Fires in rows for a wide spread",
+      "Crackling finish"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/10 x 10 Color Full Shot.jfif",
+      "GOPI Crackers/CRACKLING SPECIAL/50 Shot Crackling.jfif"
+    ],
+    "stock": 225,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "79",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-080",
+    "code": "80",
+    "slug": "2-5-inch-set-out-20-shot",
+    "name": "2½″ Set-Out 20 Shot",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 3920,
+    "mrp": 15680,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "A set-out rack of 20 2½ inch shells, pre-fused as one unit. Bigger shells and wider breaks than a cake of the same shot count, at the cost of the space it needs.",
+    "highlights": [
+      "20 × 2½ inch shells",
+      "Wider breaks than a standard cake",
+      "Needs a clear 30 metre radius"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Aerial Out (3 Pcs).jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/100 Multi Colour Shot.jfif"
+    ],
+    "stock": 62,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "80",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-081",
+    "code": "81",
+    "slug": "3-5-inch-set-out-16-shot",
+    "name": "3½″ Set-Out 16 Shot",
+    "category": "aerial-shots",
+    "brand": "Gopi Crackers",
+    "price": 5320,
+    "mrp": 21280,
+    "discount": 75,
+    "unit": "Single cake",
+    "description": "A set-out rack of 16 3½ inch shells, pre-fused as one unit. Bigger shells and wider breaks than a cake of the same shot count, at the cost of the space it needs.",
+    "highlights": [
+      "16 × 3½ inch shells",
+      "Wider breaks than a standard cake",
+      "Needs a clear 30 metre radius"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Aerial Out (3 Pcs).jfif",
+      "GOPI Crackers/COLOUR FULL FANCY MULTI COLOUR SHOTS/120 Multi Colour Shot.jfif"
+    ],
+    "stock": 73,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "81",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single cake"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-082",
+    "code": "82",
+    "slug": "chotta-fancy-single",
+    "name": "Chotta Fancy Single",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The smallest single shot in the list. One shell, about 20 metres up, opening into a compact colour break.",
+    "highlights": [
+      "Around 20 metres",
+      "Compact colour break",
+      "The gentlest single shot we sell"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Chotta Fancy.jfif"
+    ],
+    "stock": 128,
+    "tags": [
+      "loud",
+      "aerial",
+      "value"
+    ],
+    "specs": {
+      "Product code": "82",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-083",
+    "code": "83",
+    "slug": "chotta-fancy-3-piece",
+    "name": "Chotta Fancy 3 Piece",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "The smallest single shot in the list. One shell, about 20 metres up, opening into a compact colour break. Sold three to a pack so you can fire them in sequence.",
+    "highlights": [
+      "Around 20 metres",
+      "Compact colour break",
+      "Pack of 3, fired in sequence"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Chotta Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Aerial Out (3 Pcs).jfif"
+    ],
+    "stock": 132,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "83",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-084",
+    "code": "84",
+    "slug": "2-inch-single",
+    "name": "2″ Single",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A 2 inch single shot — one shell, about 25 metres up, opening into a full multi-colour break. The size that most people build a show around.",
+    "highlights": [
+      "Around 25 metres",
+      "Full multi-colour break",
+      "Single shell, single fuse"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/2_Fancy.jfif"
+    ],
+    "stock": 108,
+    "tags": [
+      "loud",
+      "aerial",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "84",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-085",
+    "code": "85",
+    "slug": "2-inch-single-3-piece",
+    "name": "2″ Single 3 Piece",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 392,
+    "mrp": 1568,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "A 2 inch single shot — one shell, about 25 metres up, opening into a full multi-colour break. The size that most people build a show around. Sold three to a pack so you can fire them in sequence.",
+    "highlights": [
+      "Around 25 metres",
+      "Full multi-colour break",
+      "Pack of 3, fired in sequence"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/2_Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Aerial Out (3 Pcs).jfif"
+    ],
+    "stock": 227,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "85",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-086",
+    "code": "86",
+    "slug": "2-5-inch-single",
+    "name": "2½″ Single",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 210,
+    "mrp": 840,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A 2½ inch single shot — one shell, about 32 metres up, opening into a full multi-colour break. The size that most people build a show around.",
+    "highlights": [
+      "Around 32 metres",
+      "Full multi-colour break",
+      "Single shell, single fuse"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/2_Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 157,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "86",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-087",
+    "code": "87",
+    "slug": "2-5-inch-single-3-piece",
+    "name": "2½″ Single 3 Piece",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 560,
+    "mrp": 2240,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "A 2½ inch single shot — one shell, about 32 metres up, opening into a full multi-colour break. The size that most people build a show around. Sold three to a pack so you can fire them in sequence.",
+    "highlights": [
+      "Around 32 metres",
+      "Full multi-colour break",
+      "Pack of 3, fired in sequence"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/2_Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/Aerial Out (3 Pcs).jfif"
+    ],
+    "stock": 51,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "87",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-088",
+    "code": "88",
+    "slug": "2-5-inch-minies-3-piece",
+    "name": "2½″ Minies 3 Piece",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "Three 2½ inch tubes loaded with mini shells — each one puts up a cluster of small breaks instead of a single large one. Sold three to a pack so you can fire them in sequence.",
+    "highlights": [
+      "Cluster of small breaks per shot",
+      "Pack of 3",
+      "Pack of 3, fired in sequence"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/2_Fancy.jfif"
+    ],
+    "stock": 219,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "88",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-089",
+    "code": "89",
+    "slug": "3-5-inch-single",
+    "name": "3½″ Single",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 392,
+    "mrp": 1568,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A 3½ inch single shot — one shell, about 42 metres up, opening into a full multi-colour break. The size that most people build a show around.",
+    "highlights": [
+      "Around 42 metres",
+      "Full multi-colour break",
+      "Single shell, single fuse"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Fancy.jfif"
+    ],
+    "stock": 105,
+    "tags": [
+      "loud",
+      "aerial",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "89",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-090",
+    "code": "90",
+    "slug": "3-5-inch-single-premium",
+    "name": "3½″ Single Premium",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 490,
+    "mrp": 1960,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The premium 3½ inch shell: same tube, better composition. Deeper colour, a rounder break and noticeably less smoke behind it.",
+    "highlights": [
+      "Around 42 metres",
+      "Premium composition, deeper colour",
+      "Cleaner break, less smoke"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 47,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "90",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-091",
+    "code": "91",
+    "slug": "4-5-inch-single",
+    "name": "4½″ Single",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 560,
+    "mrp": 2240,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A 4½ inch single shot — one shell, about 52 metres up, opening into a full multi-colour break. The size that most people build a show around.",
+    "highlights": [
+      "Around 52 metres",
+      "Full multi-colour break",
+      "Single shell, single fuse"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif"
+    ],
+    "stock": 127,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "91",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-092",
+    "code": "92",
+    "slug": "4-5-inch-single-long",
+    "name": "4½″ Single Long",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A longer tube than the standard 4½ inch, so the shell leaves faster and gets roughly ten metres higher before it opens.",
+    "highlights": [
+      "Around 62 metres",
+      "Longer tube, harder lift",
+      "Wider break at altitude"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 25,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "92",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-093",
+    "code": "93",
+    "slug": "4-5-inch-double",
+    "name": "4½″ Double",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 1190,
+    "mrp": 4760,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A double-charged 4½ inch tube — one shell, but a heavier lift and a break wide enough to be worth the price. Reaches about 60 metres.",
+    "highlights": [
+      "Around 60 metres",
+      "Heavier lift than the single",
+      "The widest break at this bore"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Night Fancy (Double Ball).jfif"
+    ],
+    "stock": 47,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "93",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-094",
+    "code": "94",
+    "slug": "5-5-inch-single-orange",
+    "name": "5½″ Single Orange",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The orange shell in the 5½ inch set. A single deep colour held right through the break rather than a mix — bought as a set of four, one of each.",
+    "highlights": [
+      "Single orange break",
+      "Around 62 metres",
+      "Collect the full colour set"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 190,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "94",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-095",
+    "code": "95",
+    "slug": "5-5-inch-single-crackling",
+    "name": "5½″ Single Crackling",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A 5½ inch shell that opens on crackling silver — the break is heard as much as seen, a shower of snaps that lasts a second or two after the colour has gone.",
+    "highlights": [
+      "Crackling silver break",
+      "Around 62 metres",
+      "Heard as much as seen"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/5_Nayagara Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 125,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "95",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-096",
+    "code": "96",
+    "slug": "5-5-inch-single-niagara-park",
+    "name": "5½″ Single Niagara Park",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The Niagara break is a falling curtain rather than a burst — the shell opens and the stars drift down together instead of scattering.",
+    "highlights": [
+      "Falling curtain break",
+      "Around 62 metres",
+      "Long hang time"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/5_Nayagara Fancy.jfif"
+    ],
+    "stock": 228,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "96",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-097",
+    "code": "97",
+    "slug": "5-5-inch-single-pink-love",
+    "name": "5½″ Single Pink Love",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The pink shell in the 5½ inch set. A single deep colour held right through the break rather than a mix — bought as a set of four, one of each.",
+    "highlights": [
+      "Single pink break",
+      "Around 62 metres",
+      "Collect the full colour set"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/5_Purple Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 36,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "97",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-098",
+    "code": "98",
+    "slug": "5-5-inch-single-blue-love",
+    "name": "5½″ Single Blue Love",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The blue shell in the 5½ inch set. A single deep colour held right through the break rather than a mix — bought as a set of four, one of each.",
+    "highlights": [
+      "Single blue break",
+      "Around 62 metres",
+      "Collect the full colour set"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/5_Purple Fancy.jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif"
+    ],
+    "stock": 170,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "98",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-099",
+    "code": "99",
+    "slug": "5-5-inch-single-purple-wonder",
+    "name": "5½″ Single Purple Wonder",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 770,
+    "mrp": 3080,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "The purple shell in the 5½ inch set. A single deep colour held right through the break rather than a mix — bought as a set of four, one of each.",
+    "highlights": [
+      "Single purple break",
+      "Around 62 metres",
+      "Collect the full colour set"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/5_Purple Fancy.jfif"
+    ],
+    "stock": 162,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "99",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-100",
+    "code": "100",
+    "slug": "5-5-inch-double-ball",
+    "name": "5½″ Double Ball",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 840,
+    "mrp": 3360,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "Two shells stacked in one 5½ inch tube. The first opens at height, the second a beat later and lower, so the sky fills twice from a single fuse.",
+    "highlights": [
+      "Two shells, one tube",
+      "Breaks twice, a beat apart",
+      "Around 62 metres"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Night Fancy (Double Ball).jfif"
+    ],
+    "stock": 127,
+    "tags": [
+      "loud",
+      "aerial"
+    ],
+    "specs": {
+      "Product code": "100",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-101",
+    "code": "101",
+    "slug": "5-5-inch-double",
+    "name": "5½″ Double",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 1330,
+    "mrp": 5320,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A double-charged 5½ inch tube — one shell, but a heavier lift and a break wide enough to be worth the price. Reaches about 70 metres.",
+    "highlights": [
+      "Around 70 metres",
+      "Heavier lift than the single",
+      "The widest break at this bore"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Night Fancy (Double Ball).jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/4_ Mega Fancy.jfif"
+    ],
+    "stock": 51,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "101",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-102",
+    "code": "102",
+    "slug": "6-5-inch-double",
+    "name": "6½″ Double",
+    "category": "single-shots",
+    "brand": "Gopi Crackers",
+    "price": 1750,
+    "mrp": 7000,
+    "discount": 75,
+    "unit": "Single shot",
+    "description": "A double-charged 6½ inch tube — one shell, but a heavier lift and a break wide enough to be worth the price. Reaches about 80 metres.",
+    "highlights": [
+      "Around 80 metres",
+      "Heavier lift than the single",
+      "The widest break at this bore"
+    ],
+    "images": [
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/3.5 Night Fancy (Double Ball).jfif",
+      "GOPI Crackers/COLOUR FULL FANCY SINGLE SHOTS/7 Wonders.jfif"
+    ],
+    "stock": 58,
+    "tags": [
+      "loud",
+      "aerial",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "102",
+      "Noise": "High",
+      "Safe distance": "25 metres",
+      "Contents": "Single shot"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-103",
+    "code": "103",
+    "slug": "7-cm-electric-sparkler",
+    "name": "7 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 14,
+    "mrp": 56,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 7 cm sparkler throwing a dense white electric spray for about 20 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 20 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/7cm Electric Sparkles.jpg"
+    ],
+    "stock": 101,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "103",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-104",
+    "code": "104",
+    "slug": "7-cm-colour-sparkler",
+    "name": "7 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 21,
+    "mrp": 84,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 7 cm sparkler throwing four colour bands down the stick for about 20 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 20 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Color Sparkles.png",
+      "GOPI Crackers/PAPER BOMB/7cm Crackling Sparkles.jfif"
+    ],
+    "stock": 197,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "104",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-105",
+    "code": "105",
+    "slug": "7-cm-green-sparkler",
+    "name": "7 cm Green Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 28,
+    "mrp": 112,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 7 cm sparkler throwing a deep green flame for about 20 seconds — a single held colour rather than a transition — quieter to look at than the multi-colour. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 20 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Green Sparkles.jfif"
+    ],
+    "stock": 195,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "105",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-106",
+    "code": "106",
+    "slug": "7-cm-red-sparkler",
+    "name": "7 cm Red Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 28,
+    "mrp": 112,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 7 cm sparkler throwing a rose red flame for about 20 seconds — a single held colour, and the warmest of the set against skin tones in a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 20 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Red Sparkles.png"
+    ],
+    "stock": 175,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "106",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-107",
+    "code": "107",
+    "slug": "10-cm-electric-sparkler",
+    "name": "10 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 42,
+    "mrp": 168,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 10 cm sparkler throwing a dense white electric spray for about 30 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 30 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Electric Sparkles.jfif"
+    ],
+    "stock": 228,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "107",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-108",
+    "code": "108",
+    "slug": "10-cm-colour-sparkler",
+    "name": "10 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 42,
+    "mrp": 168,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 10 cm sparkler throwing four colour bands down the stick for about 30 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 30 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Color Sparkles.png"
+    ],
+    "stock": 144,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "108",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-109",
+    "code": "109",
+    "slug": "10-cm-green-sparkler",
+    "name": "10 cm Green Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 42,
+    "mrp": 168,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 10 cm sparkler throwing a deep green flame for about 30 seconds — a single held colour rather than a transition — quieter to look at than the multi-colour. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 30 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Green Sparkles.jfif"
+    ],
+    "stock": 85,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "109",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-110",
+    "code": "110",
+    "slug": "10-cm-red-sparkler",
+    "name": "10 cm Red Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 42,
+    "mrp": 168,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 10 cm sparkler throwing a rose red flame for about 30 seconds — a single held colour, and the warmest of the set against skin tones in a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 30 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/10cm Red Sparkles.png"
+    ],
+    "stock": 192,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "110",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-111",
+    "code": "111",
+    "slug": "12-cm-electric-sparkler",
+    "name": "12 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 12 cm sparkler throwing a dense white electric spray for about 35 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 35 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Electric Sparkles.jfif"
+    ],
+    "stock": 80,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "111",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-112",
+    "code": "112",
+    "slug": "12-cm-colour-sparkler",
+    "name": "12 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 12 cm sparkler throwing four colour bands down the stick for about 35 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 35 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Color Sparkles.jfif"
+    ],
+    "stock": 54,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "112",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-113",
+    "code": "113",
+    "slug": "12-cm-green-sparkler",
+    "name": "12 cm Green Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 12 cm sparkler throwing a deep green flame for about 35 seconds — a single held colour rather than a transition — quieter to look at than the multi-colour. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 35 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Green Sparkles.jfif"
+    ],
+    "stock": 183,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "113",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-114",
+    "code": "114",
+    "slug": "12-cm-red-sparkler",
+    "name": "12 cm Red Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 12 cm sparkler throwing a rose red flame for about 35 seconds — a single held colour, and the warmest of the set against skin tones in a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 35 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Red Sparkles.jfif"
+    ],
+    "stock": 80,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "114",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-115",
+    "code": "115",
+    "slug": "15-cm-electric-sparkler",
+    "name": "15 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 15 cm sparkler throwing a dense white electric spray for about 40 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 40 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Electric Sparkles.jfif"
+    ],
+    "stock": 208,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "115",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-116",
+    "code": "116",
+    "slug": "15-cm-colour-sparkler",
+    "name": "15 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 15 cm sparkler throwing four colour bands down the stick for about 40 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 40 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Color Sparkles.jfif"
+    ],
+    "stock": 228,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "116",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-117",
+    "code": "117",
+    "slug": "15-cm-green-sparkler",
+    "name": "15 cm Green Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 15 cm sparkler throwing a deep green flame for about 40 seconds — a single held colour rather than a transition — quieter to look at than the multi-colour. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 40 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Green Sparkles.jfif"
+    ],
+    "stock": 62,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "117",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-118",
+    "code": "118",
+    "slug": "15-cm-red-sparkler",
+    "name": "15 cm Red Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 15 cm sparkler throwing a rose red flame for about 40 seconds — a single held colour, and the warmest of the set against skin tones in a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 40 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Red Sparkles.jfif"
+    ],
+    "stock": 58,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "118",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-119",
+    "code": "119",
+    "slug": "30-cm-electric-sparkler",
+    "name": "30 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 30 cm sparkler throwing a dense white electric spray for about 60 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 60 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/30cm Electric Sparkles.png"
+    ],
+    "stock": 181,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "119",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-120",
+    "code": "120",
+    "slug": "30-cm-colour-sparkler",
+    "name": "30 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 30 cm sparkler throwing four colour bands down the stick for about 60 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 60 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/30cm Color Sparkles.jfif"
+    ],
+    "stock": 174,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "120",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-121",
+    "code": "121",
+    "slug": "30-cm-green-sparkler",
+    "name": "30 cm Green Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 30 cm sparkler throwing a deep green flame for about 60 seconds — a single held colour rather than a transition — quieter to look at than the multi-colour. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 60 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/30cm Green Sparkles.jfif"
+    ],
+    "stock": 160,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "121",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-122",
+    "code": "122",
+    "slug": "30-cm-red-sparkler",
+    "name": "30 cm Red Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 30 cm sparkler throwing a rose red flame for about 60 seconds — a single held colour, and the warmest of the set against skin tones in a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 60 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/15cm Red Sparkles.jfif",
+      "GOPI Crackers/PAPER BOMB/30cm Color Sparkles.jfif"
+    ],
+    "stock": 191,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "122",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-123",
+    "code": "123",
+    "slug": "50-cm-electric-sparkler",
+    "name": "50 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 50 cm sparkler throwing a dense white electric spray for about 90 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 90 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/50cm Electric Sparkles.jfif"
+    ],
+    "stock": 144,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "123",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-124",
+    "code": "124",
+    "slug": "50-cm-colour-sparkler",
+    "name": "50 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 50 cm sparkler throwing four colour bands down the stick for about 90 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 90 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/50cm Color Sparkles.jfif"
+    ],
+    "stock": 237,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "124",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-125",
+    "code": "125",
+    "slug": "50-cm-5-in-1-sparkler",
+    "name": "50 cm 5-in-1 Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 50 cm stick banded with five compositions — gold, green, red, violet and crackling silver — that hand over to each other one at a time down the length.",
+    "highlights": [
+      "Five colours in one stick",
+      "Full 50 cm length",
+      "Around 90 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/Heart Sparkles (4 in 1).jfif",
+      "GOPI Crackers/PAPER BOMB/50cm Color Sparkles.jfif"
+    ],
+    "stock": 89,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "125",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-126",
+    "code": "126",
+    "slug": "75-cm-electric-sparkler",
+    "name": "75 cm Electric Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 75 cm sparkler throwing a dense white electric spray for about 120 seconds — the brightest of the four and the one that lights a face properly for a photograph. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 120 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/50cm Electric Sparkles.jfif",
+      "GOPI Crackers/PAPER BOMB/30cm Electric Sparkles.png"
+    ],
+    "stock": 44,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "126",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-127",
+    "code": "127",
+    "slug": "75-cm-colour-sparkler",
+    "name": "75 cm Colour Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 490,
+    "mrp": 1960,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 75 cm sparkler throwing four colour bands down the stick for about 120 seconds — the colours hand over one at a time as it burns down. Triple-dipped so the composition burns evenly right to the wire.",
+    "highlights": [
+      "About 120 seconds of burn",
+      "Triple-dipped for an even burn",
+      "Silent — no report at any stage"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/50cm Color Sparkles.jfif",
+      "GOPI Crackers/PAPER BOMB/30cm Color Sparkles.jfif"
+    ],
+    "stock": 234,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "127",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-128",
+    "code": "128",
+    "slug": "lovely-hard-sparkler",
+    "name": "Lovely Hard Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A hard sparkler on a stiff steel wire rather than a soft one — it will not bend in the hand, which makes it the easier one to give a child.",
+    "highlights": [
+      "Stiff steel wire, will not bend",
+      "Easier for small hands",
+      "Around 45 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/Umperla Sparkles.jfif"
+    ],
+    "stock": 202,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "128",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-129",
+    "code": "129",
+    "slug": "spinning-sparkler",
+    "name": "Spinning Sparkler",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A sparkler with an offset head, so it spins slowly on its own axis as it burns and draws a circle of light instead of a point.",
+    "highlights": [
+      "Spins as it burns",
+      "Draws a circle of light",
+      "Around 40 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/PAPER BOMB/Umperla Sparkles.jfif",
+      "GOPI Crackers/PAPER BOMB/Heart Sparkles (4 in 1).jfif"
+    ],
+    "stock": 154,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "129",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-130",
+    "code": "130",
+    "slug": "1-5-inch-twinkling-star",
+    "name": "1½″ Twinkling Star",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 42,
+    "mrp": 168,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 1½ inch twinkling star — the tip glows white and pulses rather than sprays, so it reads as a slow twinkle instead of a fountain. Ten to a pack.",
+    "highlights": [
+      "Pulses rather than sprays",
+      "10 sticks to a pack",
+      "Silent, very low heat"
+    ],
+    "images": [
+      "GOPI Crackers/TWINKLING STAR/1½ Twinkling Star (10 Pcs).jfif"
+    ],
+    "stock": 213,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "130",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-131",
+    "code": "131",
+    "slug": "4-5-inch-twinkling-star",
+    "name": "4½″ Twinkling Star",
+    "category": "sparklers",
+    "brand": "Gopi Crackers",
+    "price": 98,
+    "mrp": 392,
+    "discount": 75,
+    "unit": "Box of 10 sticks",
+    "description": "A 4½ inch twinkling star — the tip glows white and pulses rather than sprays, so it reads as a slow twinkle instead of a fountain. Ten to a pack.",
+    "highlights": [
+      "Pulses rather than sprays",
+      "10 sticks to a pack",
+      "Silent, very low heat"
+    ],
+    "images": [
+      "GOPI Crackers/TWINKLING STAR/4 Twinkling Star (10 Pcs).jfif",
+      "GOPI Crackers/TWINKLING STAR/1½ Twinkling Star (10 Pcs).jfif"
+    ],
+    "stock": 76,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "131",
+      "Noise": "Silent",
+      "Safe distance": "1 metre",
+      "Contents": "Box of 10 sticks"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-132",
+    "code": "132",
+    "slug": "match-box-dora",
+    "name": "Match Box Dora",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "Match-box crackers in a printed sleeve — strike one on the box and drop it. A light snap, no flame, and small enough for a pocket.",
+    "highlights": [
+      "Strike and drop, like a match",
+      "Light snap, no flame",
+      "Printed collectable sleeve"
+    ],
+    "images": [
+      "GOPI Crackers/MATCH BOX/Colour Matches Super Deluxe (10 in 1).jfif"
+    ],
+    "stock": 79,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "132",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-133",
+    "code": "133",
+    "slug": "match-box-super-deluxe",
+    "name": "Match Box Super Deluxe",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 112,
+    "mrp": 448,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The super deluxe box holds ten different match crackers, each with its own effect — snaps, sparks, a couple of colour flashes.",
+    "highlights": [
+      "Ten different effects in one box",
+      "Strike-anywhere heads",
+      "No open flame"
+    ],
+    "images": [
+      "GOPI Crackers/MATCH BOX/Colour Matches Super Deluxe (10 in 1).jfif",
+      "GOPI Crackers/MATCH BOX/Loptop (10 in 1).jfif"
+    ],
+    "stock": 111,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "premium",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "133",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-134",
+    "code": "134",
+    "slug": "match-box-pokemon",
+    "name": "Match Box Pokemon",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 168,
+    "mrp": 672,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The same ten-in-one format in the Pokemon sleeve, with a heavier charge on each match and a brighter flash.",
+    "highlights": [
+      "Ten effects, heavier charge",
+      "Brighter flash than the Super Deluxe",
+      "Collectable sleeve"
+    ],
+    "images": [
+      "GOPI Crackers/MATCH BOX/Loptop (10 in 1).jfif"
+    ],
+    "stock": 52,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "134",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-135",
+    "code": "135",
+    "slug": "match-box-royal-mega",
+    "name": "Match Box Royal Mega",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Box of 10",
+    "description": "The largest match box set — a full tray of colour matches with a proper sequence to it, from snaps through to a coloured flare finish.",
+    "highlights": [
+      "Full tray, sequenced effects",
+      "Finishes on a coloured flare",
+      "The largest match set we sell"
+    ],
+    "images": [
+      "GOPI Crackers/MATCH BOX/Loptop (10 in 1).jfif",
+      "GOPI Crackers/MATCH BOX/Colour Matches Super Deluxe (10 in 1).jfif"
+    ],
+    "stock": 48,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "135",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Box of 10"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-136",
+    "code": "136",
+    "slug": "20-item-gift-box",
+    "name": "20 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Box of 20 items",
+    "description": "20 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "20 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/21 Item Flute Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/25 Item Tabla Gift Box.jfif"
+    ],
+    "stock": 88,
+    "tags": [
+      "gifting",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "136",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 20 items"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-137",
+    "code": "137",
+    "slug": "30-item-gift-box",
+    "name": "30 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Box of 30 items",
+    "description": "30 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "30 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/30 Item Violin Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/35 Item KeyBoard Gift Box.jfif"
+    ],
+    "stock": 106,
+    "tags": [
+      "gifting"
+    ],
+    "specs": {
+      "Product code": "137",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 30 items"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-138",
+    "code": "138",
+    "slug": "40-item-gift-box",
+    "name": "40 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 812,
+    "mrp": 3248,
+    "discount": 75,
+    "unit": "Box of 40 items",
+    "description": "40 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "40 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/40 Item Drums Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/45 Item Guitar Gift Box.jfif"
+    ],
+    "stock": 22,
+    "tags": [
+      "gifting",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "138",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 40 items"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-139",
+    "code": "139",
+    "slug": "50-item-gift-box",
+    "name": "50 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 1092,
+    "mrp": 4368,
+    "discount": 75,
+    "unit": "Box of 50 items",
+    "description": "50 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "50 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/50 Item Piano Gift Box.jfif"
+    ],
+    "stock": 147,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "139",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 50 items"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-140",
+    "code": "140",
+    "slug": "60-item-gift-box",
+    "name": "60 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 1372,
+    "mrp": 5488,
+    "discount": 75,
+    "unit": "Box of 60 items",
+    "description": "60 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "60 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/60 Item Sitar Gift Box.jfif"
+    ],
+    "stock": 37,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "140",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 60 items"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-141",
+    "code": "141",
+    "slug": "70-item-gift-box",
+    "name": "70 Item Gift Box",
+    "category": "gift-boxes",
+    "brand": "Gopi Crackers",
+    "price": 1652,
+    "mrp": 6608,
+    "discount": 75,
+    "unit": "Box of 70 items",
+    "description": "70 different crackers packed into one box, with a printed list of the contents inside the lid so nobody has to guess. Weighted towards fountains and sparklers with a couple of aerial items for the end of the evening.",
+    "highlights": [
+      "70 different items in one box",
+      "Printed contents list inside the lid",
+      "Hand-packed and sealed"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/60 Item Sitar Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/50 Item Piano Gift Box.jfif"
+    ],
+    "stock": 98,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "141",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Box of 70 items"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-142",
+    "code": "142",
+    "slug": "3000-family-pack",
+    "name": "3000 Family Pack",
+    "category": "family-packs",
+    "brand": "Gopi Crackers",
+    "price": 4200,
+    "mrp": 16800,
+    "discount": 75,
+    "unit": "Single pack",
+    "description": "The 3,000 grade family assortment — built from the full catalogue rather than leftovers. Sized to cover 4–6 people for a whole evening without a second trip to the shop.",
+    "highlights": [
+      "Covers 4–6 people",
+      "Built from the full catalogue",
+      "One box, one complete evening"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/40 Item Drums Gift Box.jfif"
+    ],
+    "stock": 196,
+    "tags": [
+      "gifting",
+      "premium",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "142",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Single pack"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-143",
+    "code": "143",
+    "slug": "5000-family-pack",
+    "name": "5000 Family Pack",
+    "category": "family-packs",
+    "brand": "Gopi Crackers",
+    "price": 7000,
+    "mrp": 28000,
+    "discount": 75,
+    "unit": "Single pack",
+    "description": "The 5,000 grade family assortment — built from the full catalogue rather than leftovers. Sized to cover 6–10 people for a whole evening without a second trip to the shop.",
+    "highlights": [
+      "Covers 6–10 people",
+      "Built from the full catalogue",
+      "One box, one complete evening"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/50 Item Piano Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/45 Item Guitar Gift Box.jfif"
+    ],
+    "stock": 150,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "143",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Single pack"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-144",
+    "code": "144",
+    "slug": "7000-family-pack",
+    "name": "7000 Family Pack",
+    "category": "family-packs",
+    "brand": "Gopi Crackers",
+    "price": 9800,
+    "mrp": 39200,
+    "discount": 75,
+    "unit": "Single pack",
+    "description": "The 7,000 grade family assortment — built from the full catalogue rather than leftovers. Sized to cover 10–14 people for a whole evening without a second trip to the shop.",
+    "highlights": [
+      "Covers 10–14 people",
+      "Built from the full catalogue",
+      "One box, one complete evening"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/60 Item Sitar Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/35 Item KeyBoard Gift Box.jfif"
+    ],
+    "stock": 166,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "144",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Single pack"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-145",
+    "code": "145",
+    "slug": "10000-family-pack",
+    "name": "10000 Family Pack",
+    "category": "family-packs",
+    "brand": "Gopi Crackers",
+    "price": 14000,
+    "mrp": 56000,
+    "discount": 75,
+    "unit": "Single pack",
+    "description": "The 10,000 grade family assortment — the largest box we pack, and built from the full catalogue rather than leftovers. Sized to cover 15 people or more for a whole evening without a second trip to the shop.",
+    "highlights": [
+      "Covers 15 people or more",
+      "Built from the full catalogue",
+      "One box, one complete evening"
+    ],
+    "images": [
+      "GOPI Crackers/GIFT BOX - NET RATE/60 Item Sitar Gift Box.jfif",
+      "GOPI Crackers/GIFT BOX - NET RATE/50 Item Piano Gift Box.jfif"
+    ],
+    "stock": 107,
+    "tags": [
+      "gifting",
+      "premium"
+    ],
+    "specs": {
+      "Product code": "145",
+      "Noise": "Mixed",
+      "Safe distance": "10 metres",
+      "Contents": "Single pack"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-146",
+    "code": "146",
+    "slug": "small-gun",
+    "name": "Small Gun",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 112,
+    "mrp": 448,
+    "discount": 75,
+    "unit": "Gun with one cap roll",
+    "description": "A moulded plastic cap gun sized for small hands, sold with a roll of caps. Reusable season after season.",
+    "highlights": [
+      "Sized for small hands",
+      "Comes with one roll of caps",
+      "Reusable — buy caps separately"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/AK 47 (Spl).jfif"
+    ],
+    "stock": 110,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "146",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Gun with one cap roll"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-147",
+    "code": "147",
+    "slug": "big-gun",
+    "name": "Big Gun",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 224,
+    "mrp": 896,
+    "discount": 75,
+    "unit": "Gun with one cap roll",
+    "description": "The full-size cap gun, heavier in the hand with a louder action and a longer cap roll. The one older children want.",
+    "highlights": [
+      "Full size, louder action",
+      "Longer cap roll included",
+      "Reusable metal action"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/AK 47 (Spl).jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Cricket Bat.jfif"
+    ],
+    "stock": 53,
+    "tags": [
+      "silent",
+      "kids-safe"
+    ],
+    "specs": {
+      "Product code": "147",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Gun with one cap roll"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-148",
+    "code": "148",
+    "slug": "ring-cap",
+    "name": "Ring Cap",
+    "category": "kids-zone",
+    "brand": "Gopi Crackers",
+    "price": 14,
+    "mrp": 56,
+    "discount": 75,
+    "unit": "Pack of 10 rolls",
+    "description": "Replacement ring caps for either gun. Cheapest item in the catalogue and the one that runs out first — buy more than you think you need.",
+    "highlights": [
+      "Fits both the Small and Big Gun",
+      "The item that always runs out first",
+      "Cheapest item in the list"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Jee Boom Baa.jfif"
+    ],
+    "stock": 148,
+    "tags": [
+      "silent",
+      "kids-safe",
+      "value"
+    ],
+    "specs": {
+      "Product code": "148",
+      "Noise": "Silent",
+      "Safe distance": "2 metres",
+      "Contents": "Pack of 10 rolls"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": false,
+    "active": true
+  },
+  {
+    "id": "p-149",
+    "code": "149",
+    "slug": "small-peacock",
+    "name": "Small Peacock",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A fountain that opens into a fanned peacock tail of green and gold, about a metre wide. New for 2026 and already one of the most asked-for.",
+    "highlights": [
+      "Fans into a peacock tail",
+      "About a metre wide",
+      "New for 2026"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Peacock.jfif"
+    ],
+    "stock": 32,
+    "tags": [
+      "new-2026",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "149",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-150",
+    "code": "150",
+    "slug": "bada-peacock",
+    "name": "Bada Peacock",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 630,
+    "mrp": 2520,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The large peacock — twice the fan of the small one, with a blue stage the small version does not have. Give it two metres of clear ground.",
+    "highlights": [
+      "Twice the fan of the Small Peacock",
+      "Adds a blue stage",
+      "Needs two metres of clearance"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Bada Peacock.jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Peacock.jfif"
+    ],
+    "stock": 107,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "150",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": true,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-151",
+    "code": "151",
+    "slug": "pappu-shower",
+    "name": "Pappu Shower",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A soft, wide shower rather than a column — it throws low and broad, which reads beautifully on camera and keeps the sparks well away from anybody watching.",
+    "highlights": [
+      "Throws low and wide",
+      "Photographs well",
+      "Sparks stay low to the ground"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Multicolor Fountain.jfif"
+    ],
+    "stock": 108,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "151",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-152",
+    "code": "152",
+    "slug": "barlie",
+    "name": "Barlie",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 490,
+    "mrp": 1960,
+    "discount": 75,
+    "unit": "Pack of 4",
+    "description": "Four pink and silver fountains, deliberately pretty rather than loud. Sold as a set because they are meant to be lit together.",
+    "highlights": [
+      "Pack of 4, lit together",
+      "Pink and silver, no report",
+      "Made to be photographed"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Lolli Pop (5 Pcs).jfif"
+    ],
+    "stock": 171,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "152",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 4"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-153",
+    "code": "153",
+    "slug": "mega-siren",
+    "name": "Mega Siren",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 560,
+    "mrp": 2240,
+    "discount": 75,
+    "unit": "Pack of 3",
+    "description": "Three sirens that climb in pitch as they spin, then cut out together. More noise than fire — there is barely any flame on this one.",
+    "highlights": [
+      "Rising siren, almost no flame",
+      "Pack of 3",
+      "Sound rather than light"
+    ],
+    "images": [
+      "GOPI Crackers/SPECIAL COLLECTION/Siren.jfif"
+    ],
+    "stock": 35,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "153",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 3"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-154",
+    "code": "154",
+    "slug": "photo-flash",
+    "name": "Photo Flash",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Pack of 5",
+    "description": "Five flash units that fire a hard white burst about a second apart — bright enough to freeze a photograph, which is the whole idea.",
+    "highlights": [
+      "Five white flashes in sequence",
+      "Bright enough to light a photograph",
+      "No report, no fountain"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Photo Flash.jfif"
+    ],
+    "stock": 132,
+    "tags": [
+      "low-noise",
+      "kids-safe",
+      "new-2026",
+      "bestseller",
+      "photo-friendly"
+    ],
+    "specs": {
+      "Product code": "154",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 5"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-155",
+    "code": "155",
+    "slug": "selfie-stick",
+    "name": "Selfie Stick",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Single stick",
+    "description": "A hand-held fountain on a stick, sized and balanced to hold out at arm's length while somebody takes the picture. Cold-glow composition throughout.",
+    "highlights": [
+      "Hand-held on a balanced stick",
+      "Cold-glow — safe at arm’s length",
+      "Runs about 40 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/SPECIAL COLLECTION/Selfi Stick.jfif"
+    ],
+    "stock": 40,
+    "tags": [
+      "kids-safe",
+      "new-2026",
+      "photo-friendly"
+    ],
+    "specs": {
+      "Product code": "155",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single stick"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-156",
+    "code": "156",
+    "slug": "colour-smoke",
+    "name": "Colour Smoke",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Pack of 2 colours",
+    "description": "Coloured smoke rather than fire — a dense plume that hangs for a minute or two. Daytime item, and by far the best thing in the list for photographs.",
+    "highlights": [
+      "Daytime item — coloured smoke, no flame",
+      "Plume hangs for a minute or two",
+      "Two colours in the pack"
+    ],
+    "images": [
+      "GOPI Crackers/SPECIAL COLLECTION/Colour Smoke.jfif",
+      "GOPI Crackers/SPECIAL COLLECTION/Colour Smoke Multi Colour.jfif"
+    ],
+    "stock": 201,
+    "tags": [
+      "low-noise",
+      "kids-safe",
+      "new-2026",
+      "bestseller",
+      "photo-friendly"
+    ],
+    "specs": {
+      "Product code": "156",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 2 colours"
+    },
+    "featured": true,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-157",
+    "code": "157",
+    "slug": "peacock-feather",
+    "name": "Peacock Feather",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "Five slim fountains that open into overlapping feathers of green and blue. Quieter and more delicate than the Peacock pots.",
+    "highlights": [
+      "Pack of 5, overlapping feathers",
+      "Green and blue, quiet burn",
+      "More delicate than the Peacock"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Peacoke Feather (5 Pcs).jfif"
+    ],
+    "stock": 85,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "157",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-158",
+    "code": "158",
+    "slug": "emu-egg",
+    "name": "Emu Egg",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 490,
+    "mrp": 1960,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "An egg-shaped ground item that cracks open partway through the burn and switches from gold to crackling silver. Odd, and very effective.",
+    "highlights": [
+      "Cracks open mid-burn",
+      "Gold switching to crackling silver",
+      "New shape for 2026"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Gold Laddu (Spl).jfif"
+    ],
+    "stock": 39,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "158",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-159",
+    "code": "159",
+    "slug": "panda",
+    "name": "Panda",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 112,
+    "mrp": 448,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A small novelty fountain in a printed panda casing — low, gentle and short. Made for the youngest children in the family.",
+    "highlights": [
+      "Low and gentle",
+      "Runs about 20 seconds",
+      "For the youngest children"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Jee Boom Baa.jfif"
+    ],
+    "stock": 87,
+    "tags": [
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "159",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-160",
+    "code": "160",
+    "slug": "robo-kids",
+    "name": "Robo Kids",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 70,
+    "mrp": 280,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A ground novelty that walks a few inches as it burns, throwing sparks from the base. Cheap enough to buy a handful.",
+    "highlights": [
+      "Walks as it burns",
+      "Cheap enough to buy several",
+      "Very low spark height"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Jee Boom Baa.jfif",
+      "GOPI Crackers/KIDS ZONE/Butterfly.jfif"
+    ],
+    "stock": 58,
+    "tags": [
+      "kids-safe",
+      "value",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "160",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-161",
+    "code": "161",
+    "slug": "tin-single",
+    "name": "Tin Single",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 140,
+    "mrp": 560,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A single tin fountain, tall and stable, that runs a clean gold column for about a minute. The simplest thing in the 2026 list and one of the best-judged.",
+    "highlights": [
+      "Clean gold column, about a minute",
+      "Tall tin casing — very stable",
+      "Single piece"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Tin Beer Fountain.jfif"
+    ],
+    "stock": 144,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "161",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-162",
+    "code": "162",
+    "slug": "magic-paper-pop-pop",
+    "name": "Magic Paper Pop Pop",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 14,
+    "mrp": 56,
+    "discount": 75,
+    "unit": "Box of 50",
+    "description": "Paper pop-pops thrown at the ground. No flame, no fuse, nothing to light — the only item here you can hand to a child unsupervised.",
+    "highlights": [
+      "No flame and nothing to light",
+      "Thrown, not lit",
+      "The one item safe unsupervised"
+    ],
+    "images": [
+      "GOPI Crackers/PENCIL/Colour Crush.jfif"
+    ],
+    "stock": 50,
+    "tags": [
+      "low-noise",
+      "kids-safe",
+      "value",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "162",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Box of 50"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-163",
+    "code": "163",
+    "slug": "miracle-pots",
+    "name": "Miracle Pots",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A small pot that changes colour three times in a very short burn. Sold cheap so you can put a dozen out at once, which is how it looks best.",
+    "highlights": [
+      "Three colours in a short burn",
+      "Meant to be lit a dozen at a time",
+      "Small footprint"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Small.jfif"
+    ],
+    "stock": 147,
+    "tags": [
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "163",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-164",
+    "code": "164",
+    "slug": "star-drum",
+    "name": "Star Drum",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A drum-shaped fountain that throws a ring of sparks rather than a column, with a star-shaped spread at the top of the burn.",
+    "highlights": [
+      "Throws a ring, not a column",
+      "Star-shaped spread at the finish",
+      "New shape for 2026"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Guitar Fountain.jfif"
+    ],
+    "stock": 115,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "164",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-165",
+    "code": "165",
+    "slug": "water-queen",
+    "name": "Water Queen",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The water queen runs a rippling blue-white fountain that looks closer to water than fire. Silent, and the gentlest thing in the 2026 list.",
+    "highlights": [
+      "Rippling blue-white fountain",
+      "Silent throughout",
+      "The gentlest item in the 2026 range"
+    ],
+    "images": [
+      "GOPI Crackers/KIDS ZONE/Water Queen.jfif"
+    ],
+    "stock": 204,
+    "tags": [
+      "low-noise",
+      "kids-safe",
+      "new-2026",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "165",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-166",
+    "code": "166",
+    "slug": "maha-asrafi",
+    "name": "Maha Asrafi",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The large asrafi: a dense gold fountain in a squat casing, built to look like a bar of gold and to burn like one. Heavier charge than the standard Asrafi.",
+    "highlights": [
+      "Dense gold fountain",
+      "Heavier than the standard Asrafi",
+      "Squat, very stable casing"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Gold Laddu (Spl).jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Hanuman Kadayutham.jfif"
+    ],
+    "stock": 19,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "166",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-167",
+    "code": "167",
+    "slug": "asrafi",
+    "name": "Asrafi",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 280,
+    "mrp": 1120,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The standard asrafi — the same gold-bar casing and composition in a smaller size. Steady, bright and hard to get wrong.",
+    "highlights": [
+      "Gold-bar casing",
+      "Steady, bright burn",
+      "Around 40 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Gold Laddu (Spl).jfif"
+    ],
+    "stock": 220,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "167",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-168",
+    "code": "168",
+    "slug": "kit-kat",
+    "name": "Kit Kat",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 56,
+    "mrp": 224,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A flat bar-shaped novelty that snaps in sequence along its length. Small, cheap, and oddly satisfying.",
+    "highlights": [
+      "Snaps in sequence along the bar",
+      "Small and cheap",
+      "Very low flame"
+    ],
+    "images": [
+      "GOPI Crackers/PENCIL/Sivakasi Special (2 Pcs).jfif"
+    ],
+    "stock": 71,
+    "tags": [
+      "value",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "168",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-169",
+    "code": "169",
+    "slug": "bat-ball",
+    "name": "Bat Ball",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A cricket-bat-shaped fountain, held or stood on end, that runs a bright silver spray from the shoulder of the bat. A gift item as much as a cracker.",
+    "highlights": [
+      "Bat-shaped casing",
+      "Bright silver spray",
+      "Works as a gift on its own"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Cricket Bat.jfif"
+    ],
+    "stock": 62,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "169",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-170",
+    "code": "170",
+    "slug": "ak-47-gun",
+    "name": "AK 47 Gun",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 350,
+    "mrp": 1400,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A rifle-shaped fountain that fires a long, flat spray from the muzzle. Stood on its stock and lit — never held, despite the shape.",
+    "highlights": [
+      "Long flat spray from the muzzle",
+      "Stand it on the stock — never hold it",
+      "Around 45 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/AK 47 (Spl).jfif"
+    ],
+    "stock": 98,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "170",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-171",
+    "code": "171",
+    "slug": "top-gun",
+    "name": "Top Gun",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 308,
+    "mrp": 1232,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "The heavier of the two gun fountains, with a longer barrel and a two-stage burn that finishes on crackling silver.",
+    "highlights": [
+      "Longer barrel, two-stage burn",
+      "Finishes on crackling silver",
+      "Stand and light — do not hold"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/AK 47 (Spl).jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Cricket Bat.jfif"
+    ],
+    "stock": 28,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "171",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-172",
+    "code": "172",
+    "slug": "appu-fountain",
+    "name": "Appu Fountain",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 392,
+    "mrp": 1568,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "An elephant-shaped fountain that throws from the trunk. Children pick this one off the shelf before they read anything about it.",
+    "highlights": [
+      "Throws from the trunk",
+      "Bright gold spray",
+      "A shelf favourite with children"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Multicolor Fountain.jfif",
+      "GOPI Crackers/AMAZING FOUNTAIN/Tricolor Fountain.jfif"
+    ],
+    "stock": 93,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "172",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-173",
+    "code": "173",
+    "slug": "ice-cone",
+    "name": "Ice Cone",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 378,
+    "mrp": 1512,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A cone fountain that throws a soft, rounded spray rather than a hard column — closer to a shaving of light than a jet.",
+    "highlights": [
+      "Soft rounded spray",
+      "Cone casing, very stable",
+      "Around 35 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Lolli Pop (5 Pcs).jfif",
+      "GOPI Crackers/FLOWER POTS/Flower Pots Kulfi.jpg"
+    ],
+    "stock": 201,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "173",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-174",
+    "code": "174",
+    "slug": "kulfi",
+    "name": "Kulfi",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 476,
+    "mrp": 1904,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "Named for the ice cream, and it does look like one: a tall, narrow fountain in a printed casing that runs cream-white then breaks into colour.",
+    "highlights": [
+      "Cream-white breaking into colour",
+      "Tall narrow casing",
+      "Around 50 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/FLOWER POTS/Flower Pots Kulfi.jpg"
+    ],
+    "stock": 130,
+    "tags": [
+      "new-2026",
+      "bestseller"
+    ],
+    "specs": {
+      "Product code": "174",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": true,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-175",
+    "code": "175",
+    "slug": "king-version-fountain",
+    "name": "King Version Fountain",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 308,
+    "mrp": 1232,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A large fountain built around a heavy central charge, so the column holds its height for the whole burn instead of tailing off.",
+    "highlights": [
+      "Holds its height for the full burn",
+      "Heavy central charge",
+      "Around 60 seconds"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Hanuman Kadayutham.jfif"
+    ],
+    "stock": 66,
+    "tags": [
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "175",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-176",
+    "code": "176",
+    "slug": "smoke-bomb-cylinder",
+    "name": "Smoke Bomb Cylinder",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 420,
+    "mrp": 1680,
+    "discount": 75,
+    "unit": "Pack of 2",
+    "description": "Two smoke cylinders that put out a thick, low-lying cloud for well over a minute each. Daytime item, and the best value in the smoke range.",
+    "highlights": [
+      "Thick low-lying cloud",
+      "Over a minute each, pack of 2",
+      "Daytime item — no flame"
+    ],
+    "images": [
+      "GOPI Crackers/AMAZING FOUNTAIN/Cilider Bomb.jfif",
+      "GOPI Crackers/SPECIAL COLLECTION/Colour Smoke Gold.jfif"
+    ],
+    "stock": 29,
+    "tags": [
+      "low-noise",
+      "new-2026",
+      "photo-friendly"
+    ],
+    "specs": {
+      "Product code": "176",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Pack of 2"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  },
+  {
+    "id": "p-177",
+    "code": "177",
+    "slug": "90-s-kids",
+    "name": "90's Kids",
+    "category": "new-arrivals-2026",
+    "brand": "Gopi Crackers",
+    "price": 252,
+    "mrp": 1008,
+    "discount": 75,
+    "unit": "Single piece",
+    "description": "A mixed pack of the small novelties that were everywhere in the nineties — snaps, pencils, colour crush and a few pop-pops. Sold on nostalgia, and it works.",
+    "highlights": [
+      "Mixed pack of nineties novelties",
+      "Snaps, pencils, pop-pops",
+      "Low noise throughout"
+    ],
+    "images": [
+      "GOPI Crackers/PENCIL/Colour Crush.jfif",
+      "GOPI Crackers/PENCIL/Sivakasi Special (2 Pcs).jfif"
+    ],
+    "stock": 198,
+    "tags": [
+      "kids-safe",
+      "new-2026"
+    ],
+    "specs": {
+      "Product code": "177",
+      "Noise": "Low",
+      "Safe distance": "5 metres",
+      "Contents": "Single piece"
+    },
+    "featured": false,
+    "bestSeller": false,
+    "combo": false,
+    "isNew": true,
+    "active": true
+  }
+]

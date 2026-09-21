@@ -1,0 +1,74 @@
+[
+  {
+    "id": "faq-01",
+    "category": "Orders",
+    "question": "How do you sell at 75% off? Is the quality lower?",
+    "answer": "No. We manufacture in Sivakasi and sell directly, so there is no distributor, no wholesaler and no retail shop margin between our unit and your doorstep. The printed MRP on fireworks in India has always assumed three layers of margin — we simply do not have them. Every item ships from the same production line that supplies our physical shop."
+  },
+  {
+    "id": "faq-02",
+    "category": "Delivery",
+    "question": "How long does delivery take, and where do you ship?",
+    "answer": "Tamil Nadu and Kerala reach in 48 to 72 hours. The rest of South India takes three to five days, and other states five to eight. Fireworks are classified as hazardous goods, so they move only by licensed surface transport — no air freight and no same-day courier, whatever the season."
+  },
+  {
+    "id": "faq-03",
+    "category": "Delivery",
+    "question": "What are the delivery charges?",
+    "answer": "Free above ₹2,000 within Tamil Nadu and Kerala. Below that it is ₹149. All other states ship at a flat ₹249 regardless of order value. The exact figure is shown in your cart before you place the order, and we do not add anything after."
+  },
+  {
+    "id": "faq-04",
+    "category": "Safety",
+    "question": "Are your crackers within the legal noise limit?",
+    "answer": "Yes. Every sound-producing item is batch-tested at our Sivakasi unit and held under the 125 dB (AI) ceiling measured at four metres, as required by the PESO and Supreme Court guidelines. Items that exceed it never leave the floor. Each product page lists its measured noise band."
+  },
+  {
+    "id": "faq-05",
+    "category": "Safety",
+    "question": "What safety precautions should we take?",
+    "answer": "Light in open ground, one item at a time, with a bucket of sand and a bucket of water within reach. Use an agarbatti rather than a matchstick, keep the safe distance printed on each product page, tie long hair back and wear cotton — never synthetic. Never return to a cracker that has failed to light for at least ten minutes, then soak it before disposal."
+  },
+  {
+    "id": "faq-06",
+    "category": "Safety",
+    "question": "Which items are safe for young children?",
+    "answer": "Anything in the Kids Zone, and anything tagged silent or kids-safe across the catalogue. Pop-pop snappers need no flame at all. Snake tablets, colour smoke sticks and whip pencils involve a low ember with no report or projectile. Our Kids Safe Hamper collects all of it into one box. Adult supervision is still expected on every item we sell."
+  },
+  {
+    "id": "faq-07",
+    "category": "Orders",
+    "question": "Can I change or cancel my order after placing it?",
+    "answer": "Yes, until it is handed to the transporter — usually a window of about 24 hours. Call the number on your confirmation and we will amend or cancel it with a full refund. Once the consignment has left the warehouse it cannot be recalled, because hazardous-goods shipments cannot legally be rerouted mid-transit."
+  },
+  {
+    "id": "faq-08",
+    "category": "Orders",
+    "question": "Do you take bulk or institutional orders?",
+    "answer": "About a third of our volume is bulk. Above ₹25,000 you get 20% off, a named coordinator, GST invoicing against your GSTIN and a delivery date you pick. We regularly supply apartment associations, temple committees, schools and factories, several of them for more than a decade. Start on the Bulk Orders page."
+  },
+  {
+    "id": "faq-09",
+    "category": "Payments",
+    "question": "What payment methods do you accept?",
+    "answer": "UPI, all major cards, net banking and cash on delivery up to ₹5,000. Bulk orders above ₹25,000 are usually settled by NEFT against a proforma invoice, with a 30% advance and the balance before despatch."
+  },
+  {
+    "id": "faq-10",
+    "category": "Products",
+    "question": "What does the silent range actually include?",
+    "answer": "Every sparkler length, all flower pots and fountains, ground chakkars, colour smoke pots and sticks, and the whole Kids Zone. Between them they cover most of what a celebration looks like — the light, the colour and the fountains — with nothing that produces a report. Filter the catalogue by the silent tag to see the full list."
+  },
+  {
+    "id": "faq-11",
+    "category": "Products",
+    "question": "How should I store crackers until Diwali?",
+    "answer": "Somewhere cool, dry and dark, off the floor, away from the kitchen and from any electrical point. Leave them in the original carton — the packaging is designed to keep moisture out. Never store them in a bedroom or under a staircase used as a fire exit, and keep the whole lot in one place so nobody is hunting through the house with a lit sparkler."
+  },
+  {
+    "id": "faq-12",
+    "category": "Payments",
+    "question": "What if something arrives damaged?",
+    "answer": "Photograph the carton before you unpack it and send the pictures to us within 48 hours of delivery. Damaged or non-igniting items are replaced in your next despatch or refunded in full, your choice. We do not ask you to send fireworks back — that is neither legal nor safe."
+  }
+]

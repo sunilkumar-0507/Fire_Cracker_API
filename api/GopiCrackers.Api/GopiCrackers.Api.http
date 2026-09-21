@@ -1,0 +1,28 @@
+@GopiCrackers.Api_HostAddress = http://localhost:5052
+
+### The endpoint index — every route the API serves.
+GET {{GopiCrackers.Api_HostAddress}}/
+Accept: application/json
+
+### Liveness, plus the row counts loaded from the catalogue.
+GET {{GopiCrackers.Api_HostAddress}}/api/health
+Accept: application/json
+
+### The whole catalogue in one call — what the storefront boots from.
+GET {{GopiCrackers.Api_HostAddress}}/api/bootstrap
+Accept: application/json
+
+### Brand, shipping, coupons, districts, payment methods, pickup.
+GET {{GopiCrackers.Api_HostAddress}}/api/meta/config
+Accept: application/json
+
+### Price a basket. Ids and quantities only — the API re-reads every rupee.
+POST {{GopiCrackers.Api_HostAddress}}/api/cart/quote
+Content-Type: application/json
+
+{ "items": [{ "id": "p-001", "qty": 2 }], "coupon": null, "fulfilment": "delivery" }
+
+### The order book. Needs the passcode from Storefront:Admin:Passcode.
+GET {{GopiCrackers.Api_HostAddress}}/api/admin/orders
+Accept: application/json
+X-Admin-Passcode: gopi-demo-2026

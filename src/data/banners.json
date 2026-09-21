@@ -1,0 +1,43 @@
+[
+  {
+    "id": "bnr-01",
+    "placement": "hero",
+    "eyebrow": "Sivakasi · Since 1994",
+    "title": "Light up the night",
+    "titleAccent": "the way it was meant to be",
+    "subtitle": "Thirty-two years of making crackers in Sivakasi, sold to you at factory price. Search a name, open a category, or start from a curated box — your basket fills in under a minute.",
+    "ctaPrimary": { "label": "Shop all crackers", "to": "/products" },
+    "ctaSecondary": { "label": "Browse combo packs", "to": "/combos" },
+    "art": "rocket",
+    "accent": "#C84D0E"
+  },
+  {
+    "id": "bnr-02",
+    "placement": "strip",
+    "title": "Flat 75% off · Free delivery over ₹2,000 · Ships across Tamil Nadu in 48 hours",
+    "art": "sparkler",
+    "accent": "#FF8A00"
+  },
+  {
+    "id": "bnr-03",
+    "placement": "mid",
+    "eyebrow": "Green Diwali",
+    "title": "A quieter festival, without a duller one",
+    "subtitle": "Our silent range is now a third of everything we make. Same light, same colour, nothing that wakes the street or frightens the dog under the bed.",
+    "ctaPrimary": { "label": "Shop the silent range", "to": "/products?tag=silent" },
+    "art": "sparkler",
+    "accent": "#E5B23C",
+    "accentTo": "#FFD56A"
+  },
+  {
+    "id": "bnr-04",
+    "placement": "bulk",
+    "eyebrow": "Bulk & institutional",
+    "title": "Ordering for a street, a temple or an office?",
+    "subtitle": "Above ₹25,000 you get a named coordinator, 20% off, GST invoicing and a delivery slot you choose. Most associations we work with have been ordering from us for a decade.",
+    "ctaPrimary": { "label": "Request a bulk quote", "to": "/bulk-orders" },
+    "art": "giftbox",
+    "accent": "#2C0F05",
+    "accentTo": "#8C3A12"
+  }
+]

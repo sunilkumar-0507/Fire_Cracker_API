@@ -1,0 +1,140 @@
+[
+  {
+    "id": "off-01",
+    "code": "DIWALI75",
+    "title": "Flat 75% off everything",
+    "subtitle": "Sivakasi factory pricing, straight to your door",
+    "description": "Our standing festival discount across the entire catalogue. No minimum order, no category exclusions, already applied to every price you see on the site.",
+    "type": "percentage",
+    "value": 75,
+    "minOrder": 0,
+    "art": "flowerpot",
+    "accent": "#FFB238",
+    "accentTo": "#FFF1D6",
+    "endsAt": "2026-11-08T23:59:59+05:30",
+    "fallbackHours": 72,
+    "badge": "Always on",
+    "featured": true,
+    "terms": [
+      "Applied automatically to catalogue pricing",
+      "Cannot be combined with combo-pack coupons",
+      "Valid on all categories including gift boxes"
+    ],
+    "tone": "amber"
+  },
+  {
+    "id": "off-02",
+    "code": "EARLYBIRD",
+    "title": "Extra 10% before the rush",
+    "subtitle": "Order early, we ship first",
+    "description": "Place your order before the last week of October and take a further 10% off, plus priority despatch from the Sivakasi warehouse ahead of the peak-week queue.",
+    "type": "percentage",
+    "value": 10,
+    "minOrder": 1500,
+    "art": "rocket",
+    "accent": "#F5567F",
+    "accentTo": "#FFEAF1",
+    "endsAt": "2026-10-24T23:59:59+05:30",
+    "fallbackHours": 48,
+    "badge": "Ends soon",
+    "featured": true,
+    "terms": [
+      "Minimum order value ₹1,500",
+      "Priority despatch within 24 hours",
+      "One use per phone number"
+    ],
+    "tone": "berry"
+  },
+  {
+    "id": "off-03",
+    "code": "FREESHIP",
+    "title": "Free delivery over ₹2,000",
+    "subtitle": "Across Tamil Nadu and Kerala",
+    "description": "Licensed road transport at no cost on orders above ₹2,000 to any serviceable pincode in Tamil Nadu and Kerala. Other states ship at a flat ₹249.",
+    "type": "shipping",
+    "value": 0,
+    "minOrder": 2000,
+    "art": "giftbox",
+    "accent": "#22C9AE",
+    "accentTo": "#E4FBF6",
+    "endsAt": "2026-11-08T23:59:59+05:30",
+    "fallbackHours": 96,
+    "badge": "Free shipping",
+    "featured": true,
+    "terms": [
+      "Minimum cart value ₹2,000",
+      "Tamil Nadu and Kerala pincodes only",
+      "Fireworks move by licensed surface transport — no air freight"
+    ],
+    "tone": "mint"
+  },
+  {
+    "id": "off-04",
+    "code": "COMBO500",
+    "title": "₹500 off any combo pack",
+    "subtitle": "On top of the combo discount",
+    "description": "A flat ₹500 off any curated combo pack, stacking on the bundle price that is already below the sum of its parts.",
+    "type": "flat",
+    "value": 500,
+    "minOrder": 1899,
+    "art": "aerial",
+    "accent": "#C273F5",
+    "accentTo": "#F6EAFF",
+    "endsAt": "2026-10-31T23:59:59+05:30",
+    "fallbackHours": 36,
+    "badge": "Combo only",
+    "featured": true,
+    "terms": [
+      "Valid on combo packs only",
+      "Minimum combo value ₹1,899",
+      "Cannot be combined with EARLYBIRD"
+    ],
+    "tone": "royal"
+  },
+  {
+    "id": "off-05",
+    "code": "BULK20",
+    "title": "20% off bulk orders",
+    "subtitle": "For associations, temples and offices",
+    "description": "Orders above ₹25,000 get a further 20% off, a named coordinator, GST invoicing and scheduled delivery on a date you choose.",
+    "type": "percentage",
+    "value": 20,
+    "minOrder": 25000,
+    "art": "bomb",
+    "accent": "#E67A00",
+    "accentTo": "#FFE7C6",
+    "endsAt": "2026-11-08T23:59:59+05:30",
+    "fallbackHours": 120,
+    "badge": "Bulk",
+    "featured": false,
+    "terms": [
+      "Minimum order value ₹25,000",
+      "GST invoice issued against your GSTIN",
+      "Delivery date scheduled with your coordinator"
+    ],
+    "tone": "ember"
+  },
+  {
+    "id": "off-06",
+    "code": "SILENT15",
+    "title": "15% off the silent range",
+    "subtitle": "Sparklers, fountains and smoke",
+    "description": "An extra 15% across everything that does not go bang — our small nudge towards a quieter festival for the neighbours, the elderly and the street dogs.",
+    "type": "percentage",
+    "value": 15,
+    "minOrder": 999,
+    "art": "sparkler",
+    "accent": "#FFB238",
+    "accentTo": "#FFF1D6",
+    "endsAt": "2026-11-05T23:59:59+05:30",
+    "fallbackHours": 60,
+    "badge": "Green Diwali",
+    "featured": true,
+    "terms": [
+      "Valid on items tagged silent or low-noise",
+      "Minimum order value ₹999",
+      "Applies to the Silent Celebration Pack as well"
+    ],
+    "tone": "amber"
+  }
+]

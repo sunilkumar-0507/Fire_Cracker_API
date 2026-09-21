@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>GopiCrackers.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <!-- Pinned above the transitive 2.0.0 that NU1903 flags. -->
+    <PackageReference Include="Microsoft.OpenApi" Version="2.11.0" />
+  </ItemGroup>
+
+  <!--
+    MySQL / MariaDB persistence. Pomelo is the mature provider for both, and it
+    is built against EF Core 9 — so EF Core is pinned to the 9.0 line rather
+    than following the 10.0 runtime. A net10.0 app consumes a net8.0 library
+    without ceremony, and an EF provider is one place where matching the version
+    it was compiled against is worth more than being on the newest one.
+  -->
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- So the test project can assert on the entity mapping directly. -->
+  <ItemGroup>
+    <InternalsVisibleTo Include="GopiCrackers.Api.Tests" />
+  </ItemGroup>
+
+  <!--
+    The development settings stay out of the published package. Production
+    never reads them, so shipping them changes no behaviour — but they carry a
+    demo admin passcode and a DataPath relative to the repo, and neither is
+    something to hand to a server just in case ASPNETCORE_ENVIRONMENT is ever
+    set wrong.
+  -->
+  <ItemGroup>
+    <Content Update="appsettings.Development.json" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+
+  <!--
+    The storefront's JSON files stay the single source of truth. They are linked
+    in rather than copied, so editing src/data/*.json and rebuilding the API is
+    enough to change what the endpoints serve — there is no second copy to drift.
+  -->
+  <ItemGroup>
+    <Content Include="..\..\src\data\*.json"
+             Link="Data\%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest"
+             CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
