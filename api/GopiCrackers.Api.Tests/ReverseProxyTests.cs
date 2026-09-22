@@ -103,6 +103,100 @@ public sealed class ReverseProxyTests
             $"{(int)response.StatusCode}.");
     }
 
+    /* ---------------------------------------------------------------------- */
+    /* CORS, in the pipeline production actually runs                          */
+    /* ---------------------------------------------------------------------- */
+
+    /// <summary>
+    /// The regression that only exists in Production.
+    ///
+    /// UseHttpsRedirection is switched on there and nowhere else, so it is the
+    /// one piece of middleware that can turn a preflight into a redirect — and
+    /// a browser does not follow a redirect on a preflight. It fails the
+    /// request outright, which means the admin panel cannot send so much as a
+    /// GET: X-Admin-Passcode is not a header a browser will send without
+    /// asking permission for it first.
+    ///
+    /// Answered here by the CORS middleware, ahead of the redirect, so the
+    /// browser gets its 204 and its allow header and goes on to make the real
+    /// request.
+    /// </summary>
+    [Fact]
+    public async Task An_admin_preflight_is_answered_rather_than_redirected()
+    {
+        using var fixture = new ProductionFixture();
+        using var client = fixture.Direct();
+
+        var request = new HttpRequestMessage(HttpMethod.Options, "/api/admin/summary");
+        request.Headers.Add("Origin", "https://admin.skvpyros.in");
+        request.Headers.Add("Access-Control-Request-Method", "GET");
+        request.Headers.Add("Access-Control-Request-Headers", "x-admin-passcode");
+
+        var response = await client.SendAsync(request);
+
+        Assert.True(response.StatusCode is HttpStatusCode.OK or HttpStatusCode.NoContent,
+            $"The admin preflight was answered with {(int)response.StatusCode} {response.StatusCode}" +
+            (response.Headers.Location is { } to ? $" to {to}" : string.Empty) +
+            ". A browser does not follow a redirect on a preflight, so in production " +
+            "this is the whole admin panel being unable to send a single request.");
+
+        Assert.Equal("https://admin.skvpyros.in",
+            response.Headers.GetValues("Access-Control-Allow-Origin").FirstOrDefault());
+    }
+
+    /// <summary>
+    /// The storefront's ordinary GET, arriving the way nginx delivers it: plain
+    /// HTTP on loopback, with the scheme it was really served over in the
+    /// forwarded header. 200 and the allow header is the shop working.
+    /// </summary>
+    [Fact]
+    public async Task A_proxied_storefront_request_carries_the_allow_header()
+    {
+        using var fixture = new ProductionFixture();
+        using var client = fixture.Direct();
+
+        var request = new HttpRequestMessage(HttpMethod.Get, "/api/health");
+        request.Headers.Add("X-Forwarded-Proto", "https");
+        request.Headers.Add("Origin", "https://skvpyros.in");
+
+        var response = await client.SendAsync(request);
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.Equal("https://skvpyros.in",
+            response.Headers.GetValues("Access-Control-Allow-Origin").FirstOrDefault());
+    }
+
+    /// <summary>
+    /// Even the redirect carries the header. This is the case where nginx has
+    /// been set up without X-Forwarded-Proto: the API still answers 307, but a
+    /// browser can now read the redirect and follow it, so the site degrades
+    /// into an extra round trip rather than into "blocked by CORS" — which
+    /// would have sent whoever is debugging it to the origin list instead of
+    /// to the nginx config.
+    /// </summary>
+    [Fact]
+    public async Task Even_a_redirect_carries_the_allow_header()
+    {
+        using var fixture = new ProductionFixture();
+        using var client = fixture.Direct();
+
+        var request = new HttpRequestMessage(HttpMethod.Get, "/api/health");
+        request.Headers.Add("Origin", "https://skvpyros.in");
+
+        var response = await client.SendAsync(request);
+
+        Assert.True(response.StatusCode is HttpStatusCode.Redirect
+                        or HttpStatusCode.TemporaryRedirect
+                        or HttpStatusCode.MovedPermanently
+                        or HttpStatusCode.PermanentRedirect,
+            $"Expected this to be the redirect case, got {(int)response.StatusCode}.");
+
+        Assert.Equal("https://skvpyros.in",
+            response.Headers.TryGetValues("Access-Control-Allow-Origin", out var values)
+                ? values.FirstOrDefault()
+                : null);
+    }
+
     /// <summary>
     /// Turning the setting off must actually stop the headers being trusted —
     /// that is the escape hatch for a Kestrel exposed directly, where a caller

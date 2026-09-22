@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
 using GopiCrackers.Api.Data;
 using GopiCrackers.Api.Options;
+using GopiCrackers.Api.Security;
 using GopiCrackers.Api.Services;
 using GopiCrackers.Api.Services.Persistence;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -8,6 +9,22 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+/* -------------------------------------------------------------------------- */
+/* Where Kestrel listens                                                       */
+/* -------------------------------------------------------------------------- */
+
+// Loopback unless the host says otherwise. The deployment this targets puts
+// nginx in front to terminate TLS and proxy to 127.0.0.1:5000, and nginx is the
+// only thing on that machine that should be reachable from outside it — so a
+// unit file that forgets ASPNETCORE_URLS binds somewhere a firewall mistake
+// cannot expose, rather than wherever the framework's default happens to be.
+//
+// Nothing that sets a URL loses out: ASPNETCORE_URLS, --urls and the
+// applicationUrl in launchSettings.json all arrive as this same key, and any of
+// them takes precedence over the default below.
+if (string.IsNullOrWhiteSpace(builder.Configuration["urls"]))
+    builder.WebHost.UseUrls("http://127.0.0.1:5000");
 
 /* -------------------------------------------------------------------------- */
 /* Options                                                                     */
@@ -183,17 +200,80 @@ if (behindProxy)
     });
 }
 
-const string CorsPolicy = "storefront";
-builder.Services.AddCors(cors => cors.AddPolicy(CorsPolicy, policy =>
-{
-    var origins = builder.Configuration
-        .GetSection($"{StorefrontOptions.SectionName}:AllowedOrigins")
-        .Get<string[]>() ?? new StorefrontOptions().AllowedOrigins.ToArray();
+/* -------------------------------------------------------------------------- */
+/* CORS                                                                        */
+/* -------------------------------------------------------------------------- */
 
-    policy.WithOrigins(origins).AllowAnyHeader().AllowAnyMethod();
-}));
+const string CorsPolicy = "storefront";
+
+// Resolved here rather than inside the policy callback, so the same list feeds
+// the policy and the startup log further down. That log line matters more than
+// it looks: a CORS failure cannot be seen from the server side at all — the
+// request arrives, is answered 200, and the browser throws the response away —
+// so on a VPS, knowing which origins the running process actually loaded is
+// most of the diagnosis.
+var configuredOrigins = builder.Configuration
+    .GetSection($"{StorefrontOptions.SectionName}:AllowedOrigins")
+    .Get<string[]>();
+
+// Normalised rather than taken literally. The middleware compares the Origin
+// header to these strings character for character, so a trailing slash or a
+// stray capital is a silent whole-site outage; CorsOrigins explains the rest.
+var resolvedOrigins = CorsOrigins.Resolve(
+    configuredOrigins ?? [.. new StorefrontOptions().AllowedOrigins]);
+
+// An empty or entirely unusable list would build a policy that allows nothing,
+// which is a worse failure than a misconfigured one. The built-in defaults at
+// least keep local development working, and startup says loudly that it
+// happened rather than leaving a silent deny-everything in place.
+var corsOrigins = resolvedOrigins.Allowed.Count > 0
+    ? resolvedOrigins.Allowed
+    : CorsOrigins.Resolve(new StorefrontOptions().AllowedOrigins).Allowed;
+
+builder.Services.AddCors(cors => cors.AddPolicy(CorsPolicy, policy => policy
+    .WithOrigins([.. corsOrigins])
+
+    // X-Admin-Passcode is covered by this. It is not a header a browser will
+    // send without asking first, so every admin call is preceded by a
+    // preflight — see the pipeline notes below for why that ordering matters.
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+
+    // Without this the admin pays a preflight round trip on every single
+    // request. The policy is read from configuration at startup and so only
+    // changes on a restart anyway, which is what makes an hour safe to cache.
+    .SetPreflightMaxAge(TimeSpan.FromHours(1))));
 
 var app = builder.Build();
+
+/* -------------------------------------------------------------------------- */
+/* What this process actually loaded                                           */
+/* -------------------------------------------------------------------------- */
+
+// Said out loud at startup, because after this point CORS cannot be diagnosed
+// from the server at all: a blocked request is answered normally and logged
+// normally, and the only place the failure is visible is a browser console on
+// someone else's machine. Before the database work below, so a deployment that
+// cannot reach MySQL still leaves this on the record.
+app.Logger.LogInformation(
+    "CORS: {Count} origin(s) allowed: {Origins}", corsOrigins.Count, string.Join(", ", corsOrigins));
+
+foreach (var ignored in resolvedOrigins.Rejected)
+{
+    app.Logger.LogWarning(
+        "CORS: ignoring {Origin} from {Section}:AllowedOrigins. An origin is scheme://host "
+        + "with an optional port and nothing else — no path, no trailing slash "
+        + "(for example https://skvpyros.in).", ignored, StorefrontOptions.SectionName);
+}
+
+if (resolvedOrigins.Allowed.Count == 0)
+{
+    app.Logger.LogCritical(
+        "CORS: {Section}:AllowedOrigins produced no usable origin, so the built-in development "
+        + "defaults are in use and no deployed site can read a response from this API. Set it in "
+        + "appsettings.json — and note that an environment variable only overrides the one array "
+        + "index it names.", StorefrontOptions.SectionName);
+}
 
 /* -------------------------------------------------------------------------- */
 /* Database                                                                    */
@@ -215,6 +295,33 @@ await app.Services.GetRequiredService<DatabaseBootstrapper>().InitialiseAsync();
 // the proxy to Kestrel.
 if (behindProxy) app.UseForwardedHeaders();
 
+// Routing before CORS, so the policy is evaluated against the endpoint that
+// was actually matched — and so the ordering below is explicit rather than
+// resting on the UseRouting that WebApplication would otherwise slip in.
+app.UseRouting();
+
+// Ahead of the exception handler, the status-code pages and the HTTPS
+// redirect. All three produce responses of their own, and a response without
+// Access-Control-Allow-Origin is one the browser will not let the site read.
+// Three concrete failures this position prevents:
+//
+//   * A preflight is answered here, 204, instead of being redirected by
+//     UseHttpsRedirection. Browsers do not follow redirects on a preflight, so
+//     a 307 there fails the request outright rather than being retried — and
+//     the admin preflights every single call, because X-Admin-Passcode is not
+//     a header a browser sends without asking permission first. That is the
+//     difference between the admin panel working and it not working at all.
+//
+//   * A 404 or a 500 carries the allow header too, so the storefront's fetch()
+//     reports the error it actually got. Otherwise every failure in this API,
+//     whatever its cause, reaches whoever is debugging it disguised as a CORS
+//     error, and they go looking in the wrong place.
+//
+//   * The header is applied from a Response.OnStarting callback registered on
+//     the way in, which is what lets it survive UseExceptionHandler clearing
+//     the response before writing its problem details.
+app.UseCors(CorsPolicy);
+
 // Unhandled failures become ProblemDetails rather than an HTML error page, so a
 // fetch() on the storefront can always parse the body it gets back.
 app.UseExceptionHandler();
@@ -229,7 +336,6 @@ else
     app.UseHttpsRedirection();
 }
 
-app.UseCors(CorsPolicy);
 app.MapControllers();
 
 // A machine-readable index, so the API describes itself at its root.
