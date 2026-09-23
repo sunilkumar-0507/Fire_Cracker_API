@@ -26,6 +26,10 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
     /// </summary>
     private readonly string _dataPath = CopyCatalogue();
 
+    /// <summary>Where this run's uploaded photos go, for the same reason as above.</summary>
+    public string UploadsPath { get; } =
+        Path.Combine(Path.GetTempPath(), "gopi-api-tests", "uploads-" + Guid.NewGuid().ToString("n"));
+
     /// <summary>
     /// The passcode the suite authenticates with. Set on the host below rather
     /// than read from <c>appsettings.Development.json</c>: a deployment is free
@@ -40,7 +44,8 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
         => builder
             .UseSetting(Microsoft.AspNetCore.Hosting.WebHostDefaults.EnvironmentKey, "Development")
             .UseSetting("Catalog:DataPath", _dataPath)
-            .UseSetting("Storefront:Admin:Passcode", AdminPasscode);
+            .UseSetting("Storefront:Admin:Passcode", AdminPasscode)
+            .UseSetting("Storefront:Uploads:Path", UploadsPath);
 
     /// <summary>
     /// Internal rather than private so the MySQL fixture can take the same
@@ -83,7 +88,11 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
         base.Dispose(disposing);
         if (!disposing) return;
 
-        try { Directory.Delete(_dataPath, recursive: true); }
+        try
+        {
+            Directory.Delete(_dataPath, recursive: true);
+            if (Directory.Exists(UploadsPath)) Directory.Delete(UploadsPath, recursive: true);
+        }
         catch (IOException) { /* A temp directory left behind is not a test failure. */ }
     }
 }

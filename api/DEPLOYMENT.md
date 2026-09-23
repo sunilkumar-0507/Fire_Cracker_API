@@ -7,7 +7,7 @@ The database creates itself.
 
 ## 1. What you must set
 
-Four settings. Everything else has a working default.
+Five settings. Everything else has a working default.
 
 | Setting | Why |
 |---|---|
@@ -15,6 +15,7 @@ Four settings. Everything else has a working default.
 | `Storefront:Database:ServerVersion` | Without it the API asks MySQL its version at startup, so it cannot start while the database is still coming up. |
 | `Storefront:Admin:Passcode` | Blank means every admin endpoint answers **503**. The admin panel will not work until this is set. |
 | `Storefront:AllowedOrigins` | Defaults to `localhost`. A browser will block the real storefront's requests until its own URL is listed. |
+| `Storefront:Uploads:Path` | Where product photos uploaded from the admin are kept. Defaults to `uploads` inside the publish folder, which the next `dotnet publish` can wipe — point it at a folder outside it, e.g. `/var/lib/gopicrackers/uploads`, owned by the service user (`sudo mkdir -p /var/lib/gopicrackers/uploads && sudo chown www-data /var/lib/gopicrackers/uploads`). Back it up with the database. |
 
 Set them as environment variables — `__` is the separator for nesting:
 
@@ -98,6 +99,7 @@ Environment=ASPNETCORE_URLS=http://127.0.0.1:5000
 Environment=Storefront__Database__ConnectionString=Server=localhost;Port=3306;Database=gopicrackers;User ID=gopi;Password=…;
 Environment=Storefront__Database__ServerVersion=8.0.36-mysql
 Environment=Storefront__Admin__Passcode=…
+Environment=Storefront__Uploads__Path=/var/lib/gopicrackers/uploads
 # AllowedOrigins is set in appsettings.json instead — see section 1. An index
 # here overwrites an entry rather than adding one, and none of it is secret.
 
@@ -136,6 +138,10 @@ server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
     server_name api.skvpyros.in;
+
+    # Product photos are uploaded through here. nginx's default is 1 MB, which
+    # turns a phone photo into a 413 before the API ever sees it.
+    client_max_body_size 6m;
 
     ssl_certificate     /etc/letsencrypt/live/api.skvpyros.in/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/api.skvpyros.in/privkey.pem;

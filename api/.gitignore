@@ -1,3 +1,6 @@
 # .NET build output — restored and rebuilt from the csproj, not source.
 bin/
 obj/
+
+# Product photos uploaded through the admin while running locally.
+GopiCrackers.Api/uploads/

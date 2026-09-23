@@ -129,6 +129,7 @@ builder.Services.AddSingleton<OrderStore>();
 builder.Services.AddSingleton<AnalyticsStore>();
 // Reconciles the intake ledger against the order book, so it needs both.
 builder.Services.AddSingleton<InventoryStore>();
+builder.Services.AddSingleton<UploadStore>();
 
 // Online payment is opt-in, the same way email is. With no merchant
 // credentials the disabled gateway takes over: the checkout keeps offering cash
@@ -322,6 +323,22 @@ app.UseRouting();
 //     the response before writing its problem details.
 app.UseCors(CorsPolicy);
 
+// Product photos uploaded from the admin, served straight off the disk. Public
+// on purpose: they are the pictures on the shop's product pages. The names are
+// generated and never reused, so a year's caching is safe, and nosniff keeps a
+// browser from treating one as anything but the image type it was stored as.
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(
+        app.Services.GetRequiredService<UploadStore>().Root),
+    RequestPath = "/api/uploads",
+    OnPrepareResponse = context =>
+    {
+        context.Context.Response.Headers.CacheControl = "public, max-age=31536000, immutable";
+        context.Context.Response.Headers.XContentTypeOptions = "nosniff";
+    },
+});
+
 // Unhandled failures become ProblemDetails rather than an HTML error page, so a
 // fetch() on the storefront can always parse the body it gets back.
 app.UseExceptionHandler();
@@ -395,6 +412,7 @@ app.MapGet("/", (IWebHostEnvironment env) => Results.Ok(new
         "POST   /api/admin/products                     (X-Admin-Passcode)",
         "PUT    /api/admin/products/{id}                (X-Admin-Passcode)",
         "DELETE /api/admin/products/{id}                (X-Admin-Passcode)",
+        "POST   /api/admin/uploads                      (X-Admin-Passcode)",
         "PATCH  /api/admin/products/{id}/active         (X-Admin-Passcode)",
         "PATCH  /api/admin/stock                        (X-Admin-Passcode)",
         "GET    /api/admin/analytics?days=30            (X-Admin-Passcode)",
