@@ -304,7 +304,7 @@ public sealed partial class AdminCatalogController(CatalogStore catalog) : Contr
         Slug: slug,
         Name: body.Name.Trim(),
         Category: body.Category.Trim(),
-        Brand: string.IsNullOrWhiteSpace(body.Brand) ? "Gopi Crackers" : body.Brand.Trim(),
+        Brand: string.IsNullOrWhiteSpace(body.Brand) ? "SKV Pyros" : body.Brand.Trim(),
         Price: body.Price,
         Mrp: body.Mrp,
         Discount: Percent(body.Mrp, body.Price),

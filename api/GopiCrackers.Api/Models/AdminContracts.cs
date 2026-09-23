@@ -25,7 +25,7 @@ public sealed record ProductWrite
     [Required(ErrorMessage = "Pick a category")]
     public string Category { get; init; } = string.Empty;
 
-    public string Brand { get; init; } = "Gopi Crackers";
+    public string Brand { get; init; } = "SKV Pyros";
 
     [Range(1, 1_000_000, ErrorMessage = "Price must be at least ₹1")]
     public int Price { get; init; }

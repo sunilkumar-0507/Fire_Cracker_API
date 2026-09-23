@@ -137,7 +137,7 @@ public sealed class CashfreePaymentGateway(
                 // Cashfree substitutes the reference into this placeholder.
                 return_url = $"{_cashfree.ReturnUrl}?order_id={{order_id}}",
             },
-            order_note = $"Gopi Crackers order {order.OrderId}",
+            order_note = $"SKV Pyros order {order.OrderId}",
         };
 
         try

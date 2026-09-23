@@ -20,7 +20,7 @@ public sealed class CatalogueEndpointTests(ApiFixture fixture) : ApiTestBase(fix
     public async Task Root_lists_every_endpoint()
     {
         var body = await GetJsonAsync("/");
-        Assert.Equal("Gopi Crackers REST API", body.GetProperty("name").GetString());
+        Assert.Equal("SKV Pyros REST API", body.GetProperty("name").GetString());
         Assert.NotEmpty(body.GetProperty("endpoints").EnumerateArray());
     }
 
@@ -64,7 +64,7 @@ public sealed class CatalogueEndpointTests(ApiFixture fixture) : ApiTestBase(fix
     public async Task Brand_matches_the_storefront_constants()
     {
         var body = await GetJsonAsync("/api/meta/brand");
-        Assert.Equal("Gopi Crackers", body.GetProperty("name").GetString());
+        Assert.Equal("SKV Pyros", body.GetProperty("name").GetString());
         Assert.Equal("33AABCA1994K1Z8", body.GetProperty("gstin").GetString());
     }
 

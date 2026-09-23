@@ -358,7 +358,7 @@ app.MapControllers();
 // A machine-readable index, so the API describes itself at its root.
 app.MapGet("/", (IWebHostEnvironment env) => Results.Ok(new
 {
-    name = "Gopi Crackers REST API",
+    name = "SKV Pyros REST API",
     description = "Catalogue, cart and checkout endpoints for the Fire Cracker storefront.",
     openapi = env.IsDevelopment() ? "/openapi/v1.json" : null,
     endpoints = new[]

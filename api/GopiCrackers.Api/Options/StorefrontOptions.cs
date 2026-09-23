@@ -87,12 +87,12 @@ public sealed class StorefrontOptions
 
 public sealed class BrandOptions
 {
-    public string Name { get; set; } = "Gopi Crackers";
-    public string Short { get; set; } = "Gopi";
+    public string Name { get; set; } = "SKV Pyros";
+    public string Short { get; set; } = "SKV Pyros";
     public string Tagline { get; set; } = "Sivakasi · Since 1994";
-    public string Phone { get; set; } = "+91 98420 11994";
-    public string Whatsapp { get; set; } = "+91 98420 11994";
-    public string Email { get; set; } = "orders@gopicrackers.in";
+    public string Phone { get; set; } = "+91 94874 79000";
+    public string Whatsapp { get; set; } = "+91 94874 79000";
+    public string Email { get; set; } = "skvpyros@gmail.com";
     public string Address { get; set; } =
         "14/3 Sattur Main Road, Sivakasi, Virudhunagar District, Tamil Nadu 626123";
     public string Licence { get; set; } = "PESO Licence No. E/HQ/TN/22/1994 (S)";
@@ -166,7 +166,7 @@ public sealed class SmtpOptions
 public sealed class PickupOptions
 {
     public bool Enabled { get; set; } = true;
-    public string Name { get; set; } = "Gopi Crackers factory counter";
+    public string Name { get; set; } = "SKV Pyros factory counter";
 
     public string Address { get; set; } =
         "14/3 Sattur Main Road, Sivakasi, Virudhunagar District, Tamil Nadu 626123";
