@@ -541,7 +541,7 @@ public sealed class CatalogueEndpointTests(ApiFixture fixture) : ApiTestBase(fix
         Assert.All(safety, f => Assert.Equal("Safety", f.Category));
 
         var one = await GetAsync<Faq>("/api/faqs/faq-01");
-        Assert.Contains("75%", one.Question);
+        Assert.Contains("prices so low", one.Question);
     }
 
     [Fact]
