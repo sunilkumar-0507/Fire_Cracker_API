@@ -38,6 +38,7 @@ public sealed class PricingService(CatalogStore catalog, IOptions<StorefrontOpti
     ///
     /// Configuration under <c>Storefront:Coupons</c> is layered on top, for the
     /// codes that have to behave differently from the way they are advertised.
+    /// It can change an offer's rule but never add a code of its own.
     /// <c>DIWALI75</c> is the reason it exists: the offer advertises the 75%
     /// that is already inside every catalogue price, so its rule is worth 0 and
     /// the checkout does not take the same discount off twice.
@@ -63,7 +64,11 @@ public sealed class PricingService(CatalogStore catalog, IOptions<StorefrontOpti
                     string.IsNullOrWhiteSpace(offer.Subtitle) ? offer.Title : offer.Subtitle);
             }
 
-            foreach (var (code, rule) in _options.Coupons) rules[code] = rule;
+            // Overrides only. A configured code with no offer behind it would
+            // stay redeemable after the admin deleted it, which is exactly
+            // what a customer found: codes offered with nothing in the admin.
+            foreach (var (code, rule) in _options.Coupons)
+                if (rules.ContainsKey(code)) rules[code] = rule;
 
             return rules;
         }

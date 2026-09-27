@@ -45,7 +45,12 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
             .UseSetting(Microsoft.AspNetCore.Hosting.WebHostDefaults.EnvironmentKey, "Development")
             .UseSetting("Catalog:DataPath", _dataPath)
             .UseSetting("Storefront:Admin:Passcode", AdminPasscode)
-            .UseSetting("Storefront:Uploads:Path", UploadsPath);
+            .UseSetting("Storefront:Uploads:Path", UploadsPath)
+            // A configured code with no offer behind it — the checkout must refuse it.
+            .UseSetting("Storefront:Coupons:CONFIGONLY:Type", "flat")
+            .UseSetting("Storefront:Coupons:CONFIGONLY:Value", "500")
+            .UseSetting("Storefront:Coupons:CONFIGONLY:MinOrder", "0")
+            .UseSetting("Storefront:Coupons:CONFIGONLY:Note", "Not an offer");
 
     /// <summary>
     /// Internal rather than private so the MySQL fixture can take the same

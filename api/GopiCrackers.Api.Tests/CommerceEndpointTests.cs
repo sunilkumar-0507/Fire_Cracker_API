@@ -227,6 +227,24 @@ public sealed class CommerceEndpointTests(ApiFixture fixture) : ApiTestBase(fixt
         Assert.Equal(0, body.GetProperty("discount").GetInt32());
     }
 
+    /// <summary>
+    /// Configuration only overrides offers; it cannot add a code of its own.
+    /// It once could, so deleting every offer in the admin still left five
+    /// codes advertised and redeemable at the checkout.
+    /// </summary>
+    [Fact]
+    public async Task A_configured_code_with_no_offer_is_not_accepted()
+    {
+        var codes = (await GetAsync<List<AppliedCoupon>>("/api/coupons")).Select(c => c.Code);
+        Assert.DoesNotContain("CONFIGONLY", codes);
+
+        var (status, body) = await PostAsync("/api/coupons/validate",
+            new { code = "CONFIGONLY", subtotal = 5000 });
+
+        Assert.Equal(HttpStatusCode.OK, status);
+        Assert.False(body.GetProperty("ok").GetBoolean());
+    }
+
     /// <summary>A shipping coupon waives the delivery fee, not part of the goods.</summary>
     [Fact]
     public async Task A_shipping_coupon_waives_the_delivery_fee()

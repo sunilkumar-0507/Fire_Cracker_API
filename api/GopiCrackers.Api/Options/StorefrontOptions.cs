@@ -15,14 +15,14 @@ public sealed class StorefrontOptions
     public NotificationOptions Notifications { get; set; } = new();
     public PickupOptions Pickup { get; set; } = new();
 
-    /// <summary>Coupon codes the checkout accepts. Mirrors <c>offers.json</c>.</summary>
+    /// <summary>
+    /// Overrides for coupon codes the admin has created as offers. Only
+    /// overrides: a code listed here and not in the offers is never accepted,
+    /// so deleting an offer in the admin always retires its code.
+    /// </summary>
     public Dictionary<string, CouponRule> Coupons { get; set; } = new(StringComparer.OrdinalIgnoreCase)
     {
         ["DIWALI75"] = new("percentage", 0, 0, "Already applied to every price"),
-        ["EARLYBIRD"] = new("percentage", 10, 1500, "10% off before the rush"),
-        ["COMBO500"] = new("flat", 500, 1899, "₹500 off combo packs"),
-        ["SILENT15"] = new("percentage", 15, 999, "15% off the silent range"),
-        ["BULK20"] = new("percentage", 20, 25000, "20% off bulk orders"),
     };
 
     public List<PaymentMethod> PaymentMethods { get; set; } =
