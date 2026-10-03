@@ -30,7 +30,7 @@ public sealed class StorefrontOptions
         new("upi", "UPI", "GPay, PhonePe, Paytm, BHIM"),
         new("card", "Card", "Credit or debit, all major banks"),
         new("netbanking", "Net banking", "58 banks supported"),
-        new("cod", "Cash on delivery", "Available up to ₹5,000"),
+        new("cod", "Settled on WhatsApp", "No order limit"),
     ];
 
     public List<string> Districts { get; set; } =

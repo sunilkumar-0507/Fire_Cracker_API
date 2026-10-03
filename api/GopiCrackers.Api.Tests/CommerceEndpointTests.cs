@@ -616,15 +616,16 @@ public sealed class CommerceEndpointTests(ApiFixture fixture) : ApiTestBase(fixt
     }
 
     [Fact]
-    public async Task Cash_on_delivery_is_capped_at_five_thousand()
+    public async Task Whatsapp_settled_orders_have_no_amount_limit()
     {
-        var under = await PostAsync("/api/orders", ValidOrder([Line("cmb-05", 1)], payment: "cod"));
-        Assert.Equal(HttpStatusCode.Created, under.Status);
+        var small = await PostAsync("/api/orders", ValidOrder([Line("cmb-05", 1)], payment: "cod"));
+        Assert.Equal(HttpStatusCode.Created, small.Status);
 
-        // cmb-06 is ₹12,999 — over the COD ceiling the FAQ states.
-        var over = await PostAsync("/api/orders", ValidOrder([Line("cmb-06", 1)], payment: "cod"));
-        Assert.Equal(HttpStatusCode.BadRequest, over.Status);
-        Assert.Contains("5,000", over.Body.ToString());
+        // Every order is settled on WhatsApp, so a large basket goes through too.
+        var large = await PostAsync("/api/orders", ValidOrder([Line("cmb-06", 1)], payment: "cod"));
+        Assert.Equal(HttpStatusCode.Created, large.Status);
+        Assert.True(large.Body.GetProperty("totals").GetProperty("total").GetInt32() > 5000,
+            $"expected a total above ₹5,000, got: {large.Body}");
     }
 
     [Fact]

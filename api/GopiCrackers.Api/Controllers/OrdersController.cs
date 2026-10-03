@@ -60,13 +60,6 @@ public sealed class OrdersController(
                 ModelState.AddModelError($"items.{line.Id}", line.Reason);
         }
 
-        // Cash on delivery is capped at ₹5,000 — the same rule the FAQ states.
-        if (outcome.Ok && method == "cod" && outcome.Quote!.Totals.Total > 5000)
-        {
-            ModelState.AddModelError(nameof(request.Payment),
-                $"Cash on delivery is available up to ₹5,000. This order totals ₹{outcome.Quote.Totals.Total:N0}.");
-        }
-
         if (!ModelState.IsValid)
         {
             return ValidationProblem(new ValidationProblemDetails(ModelState)
