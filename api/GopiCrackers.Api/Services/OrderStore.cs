@@ -269,6 +269,24 @@ public sealed class OrderStore
     }
 
     /// <summary>
+    /// Removes an order from the book for good — a test order, a duplicate, a
+    /// prank. Returns false when the id is unknown.
+    ///
+    /// An order that still holds stock gives it back first, exactly as
+    /// cancelling would: the goods never left the shop, and without this the
+    /// shelf would be short by an order nobody can see any more.
+    /// </summary>
+    public bool DeleteOrder(string orderId)
+    {
+        if (!_orders.TryRemove(orderId, out var order)) return false;
+
+        if (HoldsStock(order.Status)) _catalog.AdjustStock(order.Items, 1);
+
+        _persistence.DeleteOrder(order.OrderId, AllOrders());
+        return true;
+    }
+
+    /// <summary>
     /// The customer-facing view of an order, gated on the phone number it was
     /// placed with. Returns null for both "no such order" and "wrong number", so
     /// a caller cannot use the difference to confirm an id exists.

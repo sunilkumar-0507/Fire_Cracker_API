@@ -91,6 +91,12 @@ public interface IOrderPersistence
     /// </summary>
     void SaveOrder(Order order, IReadOnlyList<Order> all);
 
+    /// <summary>
+    /// Removes one order. <paramref name="all"/> is the book without it, for the
+    /// same reason <see cref="SaveOrder"/> takes it.
+    /// </summary>
+    void DeleteOrder(string orderId, IReadOnlyList<Order> all);
+
     IReadOnlyList<BulkEnquiry> LoadEnquiries();
     void SaveEnquiry(BulkEnquiry enquiry);
 

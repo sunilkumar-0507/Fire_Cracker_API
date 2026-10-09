@@ -68,6 +68,18 @@ public sealed class MySqlOrderPersistence(
         db.SaveChanges();
     }
 
+    /// <summary>Its lines and timeline go with it — both cascade on delete.</summary>
+    public void DeleteOrder(string orderId, IReadOnlyList<Order> all)
+    {
+        using var db = factory.CreateDbContext();
+
+        var row = db.Orders.FirstOrDefault(o => o.OrderId == orderId);
+        if (row is null) return;
+
+        db.Orders.Remove(row);
+        db.SaveChanges();
+    }
+
     /// <summary>
     /// The timeline only ever grows, so a status change appends one row rather
     /// than rewriting the whole history. Loading the lines is skipped entirely

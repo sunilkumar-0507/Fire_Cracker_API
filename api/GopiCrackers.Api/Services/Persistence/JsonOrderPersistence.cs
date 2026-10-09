@@ -55,7 +55,12 @@ public sealed class JsonOrderPersistence(DataFiles files, ILogger<JsonOrderPersi
         }
     }
 
-    public void SaveOrder(Order order, IReadOnlyList<Order> all)
+    public void SaveOrder(Order order, IReadOnlyList<Order> all) => Write(all);
+
+    /// <summary>The file is the whole book, so removing one is rewriting the rest.</summary>
+    public void DeleteOrder(string orderId, IReadOnlyList<Order> all) => Write(all);
+
+    private void Write(IReadOnlyList<Order> all)
     {
         lock (_gate)
         {

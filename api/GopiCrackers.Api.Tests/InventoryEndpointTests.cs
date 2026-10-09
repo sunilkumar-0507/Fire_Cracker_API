@@ -183,6 +183,42 @@ public sealed class InventoryEndpointTests(ApiFixture fixture) : ApiTestBase(fix
     }
 
     [Fact]
+    public async Task Deleting_an_order_returns_the_goods_and_removes_it()
+    {
+        var before = Stock(await GetJsonAsync("/api/products/p-012"));
+
+        var (_, order) = await PostAsync("/api/orders", OrderFor("p-012", 3));
+        var orderId = order.GetProperty("orderId").GetString()!;
+        Assert.Equal(before - 3, Stock(await GetJsonAsync("/api/products/p-012")));
+
+        Assert.Equal(HttpStatusCode.NoContent, await DeleteAdminAsync($"/api/admin/orders/{orderId}"));
+
+        Assert.Equal(before, Stock(await GetJsonAsync("/api/products/p-012")));
+        Assert.Equal(0, (await RowAsync("p-012")).GetProperty("sold").GetInt32());
+
+        var book = await GetAdminJsonAsync("/api/admin/orders?pageSize=200");
+        Assert.DoesNotContain(book.GetProperty("items").EnumerateArray(),
+            o => o.GetProperty("orderId").GetString() == orderId);
+
+        // A second delete has nothing to remove.
+        Assert.Equal(HttpStatusCode.NotFound, await DeleteAdminAsync($"/api/admin/orders/{orderId}"));
+    }
+
+    [Fact]
+    public async Task Deleting_a_cancelled_order_does_not_return_the_goods_twice()
+    {
+        var before = Stock(await GetJsonAsync("/api/products/p-013"));
+
+        var (_, order) = await PostAsync("/api/orders", OrderFor("p-013", 2));
+        var orderId = order.GetProperty("orderId").GetString()!;
+
+        await PatchAdminAsync($"/api/admin/orders/{orderId}/status", new { status = "cancelled" });
+        Assert.Equal(HttpStatusCode.NoContent, await DeleteAdminAsync($"/api/admin/orders/{orderId}"));
+
+        Assert.Equal(before, Stock(await GetJsonAsync("/api/products/p-013")));
+    }
+
+    [Fact]
     public async Task Best_sellers_are_ranked_by_units_despatched()
     {
         await PostAsync("/api/orders", OrderFor("p-009", 9));

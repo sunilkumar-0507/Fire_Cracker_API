@@ -75,6 +75,16 @@ public sealed class AdminOrdersController(
         return updated is null ? NotFoundProblem(orderId) : Ok(updated);
     }
 
+    /// <summary>
+    /// Deletes an order outright. Unlike cancelling, nothing is left behind —
+    /// the order drops off the list, the dashboard and the tracking page.
+    /// </summary>
+    [HttpDelete("{orderId}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public IActionResult Delete(string orderId) =>
+        orders.DeleteOrder(orderId) ? NoContent() : NotFoundProblem(orderId);
+
     /// <summary>Everything the admin dashboard puts on screen, in one call.</summary>
     [HttpGet("/api/admin/summary")]
     [ProducesResponseType<AdminSummary>(StatusCodes.Status200OK)]

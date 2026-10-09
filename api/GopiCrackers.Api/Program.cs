@@ -409,6 +409,7 @@ app.MapGet("/", (IWebHostEnvironment env) => Results.Ok(new
         "GET    /api/admin/orders/statuses              (X-Admin-Passcode)",
         "GET    /api/admin/orders/{orderId}             (X-Admin-Passcode)",
         "PATCH  /api/admin/orders/{orderId}/status      (X-Admin-Passcode)",
+        "DELETE /api/admin/orders/{orderId}             (X-Admin-Passcode)",
         "POST   /api/admin/products                     (X-Admin-Passcode)",
         "PUT    /api/admin/products/{id}                (X-Admin-Passcode)",
         "DELETE /api/admin/products/{id}                (X-Admin-Passcode)",
