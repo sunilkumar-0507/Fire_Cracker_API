@@ -15,18 +15,31 @@ namespace GopiCrackers.Api.Controllers;
 public sealed class AdminOrdersController(
     OrderStore orders,
     CatalogStore catalog,
+    PricingService pricing,
     TimeProvider clock) : ControllerBase
 {
-    /// <summary>Every order, newest first, optionally narrowed to one status.</summary>
+    /// <summary>
+    /// Every order, newest first, optionally narrowed to one status and to one
+    /// channel — <c>online</c> (the checkout) or <c>offline</c> (invoices raised here).
+    /// </summary>
     [HttpGet]
     [ProducesResponseType<PagedResult<Order>>(StatusCodes.Status200OK)]
     public ActionResult<PagedResult<Order>> List(
         [FromQuery] string? status,
         [FromQuery] string? q,
+        [FromQuery] string? channel,
         [FromQuery] int page = 1,
         [FromQuery] int pageSize = 25)
     {
         IEnumerable<Order> matches = orders.AllOrders();
+
+        if (!string.IsNullOrWhiteSpace(channel) && !channel.Equals("all", StringComparison.OrdinalIgnoreCase))
+        {
+            if (channel is not ("online" or "offline"))
+                return ValidationProblem($"Unknown channel '{channel}'. Valid: online, offline.");
+
+            matches = matches.Where(o => o.Channel == channel);
+        }
 
         if (!string.IsNullOrWhiteSpace(status) && !status.Equals("all", StringComparison.OrdinalIgnoreCase))
         {
@@ -48,6 +61,58 @@ public sealed class AdminOrdersController(
 
         var all = matches.ToList();
         return Ok(PagedResult<Order>.From(all, Math.Max(1, page), Math.Clamp(pageSize, 1, 200)));
+    }
+
+    /// <summary>
+    /// Raises an invoice for a sale made off the website. Priced from the
+    /// catalogue exactly as the checkout is, coupon included, and saved as an
+    /// order with an <c>INV</c> id.
+    ///
+    /// Unlike the checkout, a quantity above what is on the shelf is refused
+    /// rather than quietly reduced — the customer is standing at the counter,
+    /// and an invoice for fewer boxes than they were handed is wrong.
+    /// </summary>
+    [HttpPost]
+    [ProducesResponseType<Order>(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public ActionResult<Order> Create([FromBody] OfflineOrderWrite body)
+    {
+        if (!OrderStore.IsKnownStatus(body.Status))
+            ModelState.AddModelError(nameof(body.Status),
+                $"Unknown status '{body.Status}'. Valid: {string.Join(", ", OrderStore.Statuses)}.");
+
+        if (!Fulfilment.IsKnown(body.Fulfilment))
+            ModelState.AddModelError(nameof(body.Fulfilment), "Choose delivery or pickup.");
+
+        var outcome = pricing.BuildQuote(body.Items, body.Coupon, body.Fulfilment);
+        foreach (var line in outcome.Unknown)
+            ModelState.AddModelError($"items.{line.Id}", line.Reason);
+
+        if (outcome.Quote is { } quote)
+        {
+            foreach (var line in quote.Items.Where(l => l.Capped))
+                ModelState.AddModelError($"items.{line.Id}", $"Only {line.Stock} of “{line.Name}” in stock.");
+
+            // A code typed on an invoice that does not apply should stop the
+            // save, not vanish — the customer was promised that discount.
+            if (!string.IsNullOrWhiteSpace(body.Coupon) && quote.Coupon is null)
+            {
+                var reason = pricing.ValidateCoupon(body.Coupon, quote.Totals.Subtotal).Message;
+                ModelState.AddModelError(nameof(body.Coupon), reason);
+            }
+        }
+
+        if (!ModelState.IsValid)
+        {
+            return ValidationProblem(new ValidationProblemDetails(ModelState)
+            {
+                Title = "The invoice could not be saved",
+                Status = StatusCodes.Status400BadRequest,
+            });
+        }
+
+        var order = orders.RecordOfflineOrder(body, outcome.Quote!);
+        return CreatedAtAction(nameof(Get), new { orderId = order.OrderId }, order);
     }
 
     [HttpGet("statuses")]

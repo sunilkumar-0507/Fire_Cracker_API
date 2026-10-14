@@ -183,6 +183,52 @@ public sealed class OrderStore
         return order;
     }
 
+    /// <summary>
+    /// Records a sale made off the website — an invoice raised in the admin.
+    ///
+    /// The same <see cref="Order"/> as a checkout produces, under an
+    /// <c>INV</c> id so the two can be told apart, and with the same stock
+    /// rule: the goods leave the shelf the moment it is saved, unless it is
+    /// saved already cancelled.
+    /// </summary>
+    public Order RecordOfflineOrder(OfflineOrderWrite request, CartQuote quote)
+    {
+        var now = _clock.GetUtcNow();
+        var today = DateOnly.FromDateTime(now.UtcDateTime);
+        var status = request.Status.Trim().ToLowerInvariant();
+
+        var history = new List<OrderEvent> { new("pending", now, "Invoice raised at the shop") };
+        if (status != "pending") history.Add(new OrderEvent(status, now));
+
+        var order = new Order(
+            OrderId: NextId(Order.OfflinePrefix, _orders.ContainsKey),
+            PlacedAt: now,
+            Status: status,
+            Name: request.Name.Trim(),
+            Phone: request.Phone?.Trim() ?? string.Empty,
+            Email: Clean(request.Email),
+            Address: request.Address?.Trim() ?? string.Empty,
+            City: request.City?.Trim() ?? string.Empty,
+            District: request.District?.Trim() ?? string.Empty,
+            Pincode: request.Pincode?.Trim() ?? string.Empty,
+            Payment: request.Payment.Trim().ToLowerInvariant(),
+            Notes: Clean(request.Notes),
+            Items: quote.Items,
+            Totals: quote.Totals,
+            Coupon: quote.Coupon,
+            DeliveryFrom: today,
+            DeliveryTo: today,
+            Fulfilment: Fulfilment.Normalise(request.Fulfilment),
+            History: history,
+            PaymentStatus: request.Paid ? Models.PaymentStatus.Paid : Models.PaymentStatus.Pending);
+
+        _orders[order.OrderId] = order;
+        if (HoldsStock(order.Status)) _catalog.AdjustStock(order.Items, -1);
+
+        _persistence.SaveOrder(order, AllOrders());
+        return order;
+    }
+
     public Order? FindOrder(string orderId) => _orders.GetValueOrDefault(orderId);
 
     public IReadOnlyList<Order> RecentOrders(int limit = 20) => [.. AllOrders().Take(limit)];

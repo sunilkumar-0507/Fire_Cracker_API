@@ -204,6 +204,64 @@ public sealed record OrderStatusWrite
     public string? Note { get; init; }
 }
 
+/// <summary>
+/// An invoice raised in the admin for a customer who did not use the website —
+/// a counter sale, a phone order, a walk-in. It becomes an ordinary order, so it
+/// takes stock off the shelf and appears in the order book beside the online
+/// ones.
+///
+/// Looser than <see cref="OrderRequest"/> on purpose: the shopkeeper is typing
+/// what the customer said across the counter, and a sale should not be refused
+/// because nobody asked for a pincode. Prices are still the catalogue's, and a
+/// coupon is still checked against the codes the admin has created.
+/// </summary>
+public sealed record OfflineOrderWrite
+{
+    [Required(ErrorMessage = "Who is the customer?")]
+    [StringLength(120, MinimumLength = 2)]
+    public string Name { get; init; } = string.Empty;
+
+    [RegularExpression(@"^\+?[\d\s-]{6,20}$", ErrorMessage = "That phone number does not look right")]
+    public string? Phone { get; init; }
+
+    [EmailAddress(ErrorMessage = "That email does not look right")]
+    public string? Email { get; init; }
+
+    [StringLength(400)]
+    public string? Address { get; init; }
+
+    [StringLength(120)]
+    public string? City { get; init; }
+
+    [StringLength(120)]
+    public string? District { get; init; }
+
+    [RegularExpression(@"^\d{6}$", ErrorMessage = "A 6-digit pincode, please")]
+    public string? Pincode { get; init; }
+
+    /// <summary><c>pickup</c> (handed over at the counter) or <c>delivery</c>.</summary>
+    public string Fulfilment { get; init; } = Models.Fulfilment.Pickup;
+
+    /// <summary>How the customer paid — cash, upi, card, bank or credit.</summary>
+    [Required(ErrorMessage = "How did the customer pay?")]
+    [StringLength(32)]
+    public string Payment { get; init; } = "cash";
+
+    /// <summary>True when the money has been taken.</summary>
+    public bool Paid { get; init; } = true;
+
+    /// <summary>Where the order starts. A counter sale is usually done already.</summary>
+    public string Status { get; init; } = "completed";
+
+    [StringLength(1000)]
+    public string? Notes { get; init; }
+
+    [Required, MinLength(1, ErrorMessage = "Add at least one item")]
+    public IReadOnlyList<CartLineRequest> Items { get; init; } = [];
+
+    public string? Coupon { get; init; }
+}
+
 /* -------------------------------------------------------------------------- */
 /* Dashboard                                                                   */
 /* -------------------------------------------------------------------------- */

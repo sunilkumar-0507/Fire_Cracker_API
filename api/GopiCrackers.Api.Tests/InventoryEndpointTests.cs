@@ -205,6 +205,52 @@ public sealed class InventoryEndpointTests(ApiFixture fixture) : ApiTestBase(fix
     }
 
     [Fact]
+    public async Task An_offline_invoice_is_an_order_that_takes_the_goods()
+    {
+        var before = Stock(await GetJsonAsync("/api/products/p-016"));
+
+        var (status, order) = await PostAdminAsync("/api/admin/orders", new
+        {
+            name = "Counter Customer",
+            payment = "cash",
+            items = new[] { new { id = "p-016", qty = 2 } },
+        });
+
+        Assert.Equal(HttpStatusCode.Created, status);
+        var orderId = order.GetProperty("orderId").GetString()!;
+        Assert.StartsWith("INV", orderId);
+        Assert.Equal("offline", order.GetProperty("channel").GetString());
+        Assert.Equal("completed", order.GetProperty("status").GetString());
+        Assert.Equal("paid", order.GetProperty("paymentStatus").GetString());
+        Assert.Equal(before - 2, Stock(await GetJsonAsync("/api/products/p-016")));
+
+        var offline = await GetAdminJsonAsync("/api/admin/orders?channel=offline&pageSize=200");
+        Assert.Contains(offline.GetProperty("items").EnumerateArray(),
+            o => o.GetProperty("orderId").GetString() == orderId);
+
+        var online = await GetAdminJsonAsync("/api/admin/orders?channel=online&pageSize=200");
+        Assert.DoesNotContain(online.GetProperty("items").EnumerateArray(),
+            o => o.GetProperty("orderId").GetString() == orderId);
+    }
+
+    [Fact]
+    public async Task An_offline_invoice_refuses_a_coupon_that_does_not_apply()
+    {
+        var before = Stock(await GetJsonAsync("/api/products/p-017"));
+
+        var (status, _) = await PostAdminAsync("/api/admin/orders", new
+        {
+            name = "Counter Customer",
+            payment = "cash",
+            coupon = "NOTACODE",
+            items = new[] { new { id = "p-017", qty = 1 } },
+        });
+
+        Assert.Equal(HttpStatusCode.BadRequest, status);
+        Assert.Equal(before, Stock(await GetJsonAsync("/api/products/p-017")));
+    }
+
+    [Fact]
     public async Task Deleting_a_cancelled_order_does_not_return_the_goods_twice()
     {
         var before = Stock(await GetJsonAsync("/api/products/p-013"));

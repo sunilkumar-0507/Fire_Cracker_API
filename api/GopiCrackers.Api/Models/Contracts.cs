@@ -316,6 +316,18 @@ public sealed record Order(
 
     public bool IsPickup => Models.Fulfilment.IsPickup(Fulfilment);
 
+    /// <summary>
+    /// <c>offline</c> for an invoice raised in the admin, <c>online</c> for a
+    /// checkout order. Read from the id prefix rather than stored, so every
+    /// order already in the book answers it without a migration.
+    /// </summary>
+    public string Channel => OrderId.StartsWith(OfflinePrefix, StringComparison.OrdinalIgnoreCase)
+        ? "offline"
+        : "online";
+
+    /// <summary>The id prefix of an order raised in the admin.</summary>
+    public const string OfflinePrefix = "INV";
+
     /// <summary>Never null for a caller, however old the journal entry is.</summary>
     public IReadOnlyList<OrderEvent> Timeline => History ?? [new OrderEvent(Status, PlacedAt)];
 }
