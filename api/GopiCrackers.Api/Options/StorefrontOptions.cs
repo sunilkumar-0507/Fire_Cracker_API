@@ -144,6 +144,8 @@ public sealed class NotificationOptions
 
     public PushOptions Push { get; set; } = new();
 
+    public WebPushOptions WebPush { get; set; } = new();
+
     public bool Enabled => !string.IsNullOrWhiteSpace(Smtp.Host);
 }
 
@@ -161,6 +163,35 @@ public sealed class PushOptions
     /// Expo project. Blank sends without one.
     /// </summary>
     public string AccessToken { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// Browser notifications for the web admin — no app needed. Like
+/// <see cref="PushOptions"/> it is on by default and sends nothing until a
+/// browser has subscribed.
+/// </summary>
+public sealed class WebPushOptions
+{
+    /// <summary>The subscribed browsers, relative to the content root.</summary>
+    public string SubscriptionsPath { get; set; } = "web-push-subscriptions.json";
+
+    /// <summary>
+    /// Where a generated VAPID key pair is kept when <see cref="PublicKey"/> and
+    /// <see cref="PrivateKey"/> are blank.
+    /// </summary>
+    public string KeysPath { get; set; } = "web-push-keys.json";
+
+    /// <summary>The VAPID public key, base64url. Set both or neither.</summary>
+    public string PublicKey { get; set; } = string.Empty;
+
+    /// <summary>The VAPID private key, base64url. A secret.</summary>
+    public string PrivateKey { get; set; } = string.Empty;
+
+    /// <summary>
+    /// A <c>mailto:</c> or <c>https:</c> contact for the push services. Blank
+    /// uses the brand email.
+    /// </summary>
+    public string Subject { get; set; } = string.Empty;
 }
 
 public sealed class SmtpOptions

@@ -346,3 +346,50 @@ public sealed record PushDeviceWrite
     [StringLength(80)]
     public string? Name { get; init; }
 }
+
+/* -------------------------------------------------------------------------- */
+/* Web push (browsers)                                                         */
+/* -------------------------------------------------------------------------- */
+
+/// <summary>A browser running the web admin with notifications allowed.</summary>
+public sealed record WebPushSubscription(
+    string Endpoint,
+    string P256dh,
+    string Auth,
+    string? Name,
+    DateTimeOffset RegisteredAt,
+    DateTimeOffset LastSeen);
+
+/// <summary>
+/// What the admin site sends to <c>POST /api/admin/web-push/subscriptions</c>:
+/// <c>PushSubscription.toJSON()</c> as the browser gives it, plus a name.
+/// </summary>
+public sealed record WebPushSubscriptionWrite
+{
+    [Required(ErrorMessage = "Which push endpoint?")]
+    [StringLength(1000)]
+    public string Endpoint { get; init; } = string.Empty;
+
+    [Required(ErrorMessage = "The subscription's keys are missing.")]
+    public WebPushKeys? Keys { get; init; }
+
+    /// <summary>Something to tell two browsers apart by — "Counter laptop", "Owner's phone".</summary>
+    [StringLength(80)]
+    public string? Name { get; init; }
+}
+
+public sealed record WebPushKeys
+{
+    /// <summary>The browser's P-256 public key, base64url.</summary>
+    [Required(ErrorMessage = "The p256dh key is missing.")]
+    [RegularExpression(@"^[A-Za-z0-9_-]{86,88}={0,2}$", ErrorMessage = "That is not a p256dh key.")]
+    public string P256dh { get; init; } = string.Empty;
+
+    /// <summary>The browser's 16-byte auth secret, base64url.</summary>
+    [Required(ErrorMessage = "The auth secret is missing.")]
+    [RegularExpression(@"^[A-Za-z0-9_-]{22,24}={0,2}$", ErrorMessage = "That is not an auth secret.")]
+    public string Auth { get; init; } = string.Empty;
+}
+
+/// <summary>What <c>GET /api/admin/web-push/key</c> answers: the <c>applicationServerKey</c>.</summary>
+public sealed record WebPushKey(string PublicKey);

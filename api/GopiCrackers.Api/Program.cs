@@ -156,15 +156,20 @@ if (string.IsNullOrWhiteSpace(notifications))
 else
     builder.Services.AddSingleton<SmtpNotificationSender>();
 
-// Push to the shop admin app sits in front of whichever email sender that is.
-// It sends nothing until a phone has registered at /api/admin/devices.
+// Push to the shop admin app, and to browsers with the web admin open, sits in
+// front of whichever email sender that is. Neither sends anything until a phone
+// has registered at /api/admin/devices or a browser at /api/admin/web-push.
 builder.Services.AddSingleton<PushDeviceStore>();
 builder.Services.AddSingleton<ExpoPushClient>();
+builder.Services.AddSingleton<WebPushSubscriptionStore>();
+builder.Services.AddSingleton<VapidKeys>();
+builder.Services.AddSingleton<WebPushClient>();
 builder.Services.AddSingleton<INotificationSender>(sp => new PushNotificationSender(
     string.IsNullOrWhiteSpace(notifications)
         ? sp.GetRequiredService<LoggingNotificationSender>()
         : sp.GetRequiredService<SmtpNotificationSender>(),
     sp.GetRequiredService<ExpoPushClient>(),
+    sp.GetRequiredService<WebPushClient>(),
     sp.GetRequiredService<ILogger<PushNotificationSender>>()));
 
 builder.Services
@@ -442,6 +447,11 @@ app.MapGet("/", (IWebHostEnvironment env) => Results.Ok(new
         "GET    /api/admin/devices                      (X-Admin-Passcode)",
         "POST   /api/admin/devices                      (X-Admin-Passcode)",
         "DELETE /api/admin/devices/{token}              (X-Admin-Passcode)",
+        "GET    /api/admin/web-push/key                 (X-Admin-Passcode)",
+        "GET    /api/admin/web-push/subscriptions       (X-Admin-Passcode)",
+        "POST   /api/admin/web-push/subscriptions       (X-Admin-Passcode)",
+        "DELETE /api/admin/web-push/subscriptions?endpoint= (X-Admin-Passcode)",
+        "POST   /api/admin/web-push/test                (X-Admin-Passcode)",
         "POST   /api/admin/categories                   (X-Admin-Passcode)",
         "PUT    /api/admin/categories/{id}              (X-Admin-Passcode)",
         "DELETE /api/admin/categories/{id}              (X-Admin-Passcode)",

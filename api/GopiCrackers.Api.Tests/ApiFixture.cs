@@ -52,6 +52,13 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
     /// </summary>
     public FakeExpoPush Push { get; } = new();
 
+    /// <summary>This run's browser subscriptions and VAPID keys, out of the working tree too.</summary>
+    public string WebPushPath { get; } =
+        Path.Combine(Path.GetTempPath(), "gopi-api-tests", "web-push-" + Guid.NewGuid().ToString("n"));
+
+    /// <summary>Stands in for the browsers' push services, for the same reason as <see cref="Push"/>.</summary>
+    public FakeWebPushService WebPush { get; } = new();
+
     protected override void ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder builder)
         // Development so the OpenAPI document is mapped and HTTPS redirection
         // stays off — the same pipeline `dotnet run` gives you locally.
@@ -66,9 +73,13 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
             .UseSetting("Storefront:Coupons:CONFIGONLY:MinOrder", "0")
             .UseSetting("Storefront:Coupons:CONFIGONLY:Note", "Not an offer")
             .UseSetting("Storefront:Notifications:Push:DevicesPath", PushDevicesPath)
-            .ConfigureTestServices(services => services
-                .AddHttpClient(nameof(ExpoPushClient))
-                .ConfigurePrimaryHttpMessageHandler(() => Push));
+            .UseSetting("Storefront:Notifications:WebPush:SubscriptionsPath", Path.Combine(WebPushPath, "subscriptions.json"))
+            .UseSetting("Storefront:Notifications:WebPush:KeysPath", Path.Combine(WebPushPath, "keys.json"))
+            .ConfigureTestServices(services =>
+            {
+                services.AddHttpClient(nameof(ExpoPushClient)).ConfigurePrimaryHttpMessageHandler(() => Push);
+                services.AddHttpClient(nameof(WebPushClient)).ConfigurePrimaryHttpMessageHandler(() => WebPush);
+            });
 
     /// <summary>
     /// Internal rather than private so the MySQL fixture can take the same
@@ -116,6 +127,7 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
             Directory.Delete(_dataPath, recursive: true);
             if (Directory.Exists(UploadsPath)) Directory.Delete(UploadsPath, recursive: true);
             if (File.Exists(PushDevicesPath)) File.Delete(PushDevicesPath);
+            if (Directory.Exists(WebPushPath)) Directory.Delete(WebPushPath, recursive: true);
         }
         catch (IOException) { /* A temp directory left behind is not a test failure. */ }
     }

@@ -7,7 +7,7 @@ The database creates itself.
 
 ## 1. What you must set
 
-Six settings. Everything else has a working default.
+Seven settings. Everything else has a working default.
 
 | Setting | Why |
 |---|---|
@@ -17,6 +17,7 @@ Six settings. Everything else has a working default.
 | `Storefront:AllowedOrigins` | Defaults to `localhost`. A browser will block the real storefront's requests until its own URL is listed. |
 | `Storefront:Uploads:Path` | Where product photos uploaded from the admin are kept. Defaults to `uploads` inside the publish folder, which the next `dotnet publish` can wipe — point it at a folder outside it, e.g. `/var/lib/gopicrackers/uploads`, owned by the service user (`sudo mkdir -p /var/lib/gopicrackers/uploads && sudo chown www-data /var/lib/gopicrackers/uploads`). Back it up with the database. |
 | `Storefront:Notifications:Push:DevicesPath` | The phones that get a push when an order is placed (the shop admin app registers itself here). Defaults to `push-devices.json` inside the publish folder — point it next to the uploads, e.g. `/var/lib/gopicrackers/push-devices.json`. Losing it is not serious: each phone re-registers the next time the app is opened. |
+| `Storefront:Notifications:WebPush:PublicKey` and `PrivateKey` | The key pair browsers check web admin notifications against. Generate a pair once (start the API locally and copy the two keys out of `web-push-keys.json`) and set both here, the private key as a secret. Left blank, a pair is generated into `Storefront:Notifications:WebPush:KeysPath` (default `web-push-keys.json` in the publish folder). Lose that file and every browser has to allow notifications again, so either set the keys or point both `KeysPath` and `SubscriptionsPath` next to the uploads. |
 
 Set them as environment variables — `__` is the separator for nesting:
 
@@ -102,6 +103,9 @@ Environment=Storefront__Database__ServerVersion=8.0.36-mysql
 Environment=Storefront__Admin__Passcode=…
 Environment=Storefront__Uploads__Path=/var/lib/gopicrackers/uploads
 Environment=Storefront__Notifications__Push__DevicesPath=/var/lib/gopicrackers/push-devices.json
+Environment=Storefront__Notifications__WebPush__PublicKey=…
+Environment=Storefront__Notifications__WebPush__PrivateKey=…
+Environment=Storefront__Notifications__WebPush__SubscriptionsPath=/var/lib/gopicrackers/web-push-subscriptions.json
 # AllowedOrigins is set in appsettings.json instead — see section 1. An index
 # here overwrites an entry rather than adding one, and none of it is secret.
 

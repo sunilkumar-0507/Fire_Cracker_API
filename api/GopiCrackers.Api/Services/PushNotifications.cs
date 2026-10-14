@@ -192,56 +192,69 @@ public sealed class ExpoPushClient(
 }
 
 /// <summary>
-/// Adds a push to the shop's phones — for new orders and new bulk enquiries —
-/// in front of whichever email sender is configured.
+/// Adds a push to the shop's phones (the admin app, through Expo) and to the
+/// browsers with the web admin open (Web Push) — for new orders and new bulk
+/// enquiries — in front of whichever email sender is configured.
 ///
-/// Push never delays or fails a checkout (or an enquiry form): it gets a few seconds of its own —
-/// not the customer's request token, so a shopper closing the tab does not
-/// cancel the shop's alert — and any failure is logged and swallowed, the same
-/// rule the SMTP sender follows.
+/// Push never delays or fails a checkout (or an enquiry form): the two sends
+/// run side by side within a few seconds of their own — not the customer's
+/// request token, so a shopper closing the tab does not cancel the shop's
+/// alert — and any failure is logged and swallowed, the same rule the SMTP
+/// sender follows.
 /// </summary>
 public sealed class PushNotificationSender(
     INotificationSender inner,
     ExpoPushClient push,
+    WebPushClient webPush,
     ILogger<PushNotificationSender> logger) : INotificationSender
 {
     private static readonly TimeSpan Budget = TimeSpan.FromSeconds(5);
 
     public async Task OrderPlacedAsync(Order order, CancellationToken cancellationToken = default)
     {
-        try
-        {
-            using var timeout = new CancellationTokenSource(Budget);
-            await push.SendAsync(
-                NotificationCopy.OrderPushTitle(order),
-                NotificationCopy.OrderPushBody(order),
-                new { orderId = order.OrderId },
-                timeout.Token);
-        }
-        catch (Exception ex)
-        {
-            logger.LogError(ex, "Could not push order {OrderId} to the shop's phones", order.OrderId);
-        }
+        var title = NotificationCopy.OrderPushTitle(order);
+        var body = NotificationCopy.OrderPushBody(order);
+        var data = new { orderId = order.OrderId };
+
+        await SendBothAsync(
+            token => push.SendAsync(title, body, data, token),
+            token => webPush.SendAsync(title, body, "/orders", $"order-{order.OrderId}", data, token),
+            "order", order.OrderId);
 
         await inner.OrderPlacedAsync(order, cancellationToken);
     }
 
     public async Task EnquiryReceivedAsync(BulkEnquiry enquiry, CancellationToken cancellationToken = default)
     {
-        try
-        {
-            using var timeout = new CancellationTokenSource(Budget);
-            await push.SendAsync(
-                NotificationCopy.EnquiryPushTitle(enquiry),
-                NotificationCopy.EnquiryPushBody(enquiry),
-                new { enquiryId = enquiry.EnquiryId },
-                timeout.Token);
-        }
-        catch (Exception ex)
-        {
-            logger.LogError(ex, "Could not push enquiry {EnquiryId} to the shop's phones", enquiry.EnquiryId);
-        }
+        var title = NotificationCopy.EnquiryPushTitle(enquiry);
+        var body = NotificationCopy.EnquiryPushBody(enquiry);
+        var data = new { enquiryId = enquiry.EnquiryId };
+
+        await SendBothAsync(
+            token => push.SendAsync(title, body, data, token),
+            token => webPush.SendAsync(title, body, "/enquiries", $"enquiry-{enquiry.EnquiryId}", data, token),
+            "enquiry", enquiry.EnquiryId);
 
         await inner.EnquiryReceivedAsync(enquiry, cancellationToken);
+    }
+
+    private async Task SendBothAsync(
+        Func<CancellationToken, Task> app, Func<CancellationToken, Task> browsers, string what, string id)
+    {
+        using var timeout = new CancellationTokenSource(Budget);
+
+        async Task Guarded(Func<CancellationToken, Task> send, string where)
+        {
+            try
+            {
+                await send(timeout.Token);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Could not push {What} {Id} to the shop's {Where}", what, id, where);
+            }
+        }
+
+        await Task.WhenAll(Guarded(app, "phones"), Guarded(browsers, "browsers"));
     }
 }

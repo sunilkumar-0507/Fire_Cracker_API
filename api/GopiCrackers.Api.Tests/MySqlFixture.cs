@@ -107,6 +107,10 @@ public sealed class MySqlFixture : WebApplicationFactory<Program>
             .UseSetting("Storefront:Admin:Passcode", AdminPasscode)
             .UseSetting("Storefront:Notifications:Push:DevicesPath",
                 Path.Combine(Path.GetTempPath(), "gopi-api-tests", "push-devices-" + Guid.NewGuid().ToString("n") + ".json"))
+            .UseSetting("Storefront:Notifications:WebPush:SubscriptionsPath",
+                Path.Combine(Path.GetTempPath(), "gopi-api-tests", "web-push-" + Guid.NewGuid().ToString("n") + ".json"))
+            .UseSetting("Storefront:Notifications:WebPush:KeysPath",
+                Path.Combine(Path.GetTempPath(), "gopi-api-tests", "web-push-keys-" + Guid.NewGuid().ToString("n") + ".json"))
             .UseSetting("Storefront:Database:ConnectionString", TestConnectionString)
 
             // Both left on deliberately: they are the defaults a deployment
