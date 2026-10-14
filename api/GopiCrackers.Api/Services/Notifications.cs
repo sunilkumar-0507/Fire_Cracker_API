@@ -69,6 +69,29 @@ public static class NotificationCopy
         return body.ToString();
     }
 
+    /// <summary>The shop's phone notification. Short: a lock screen shows two lines.</summary>
+    public static string OrderPushTitle(Order order) =>
+        $"New order {order.OrderId} · ₹{order.Totals.Total:N0}";
+
+    public static string OrderPushBody(Order order)
+    {
+        var where = order.IsPickup ? "pickup" : $"delivery to {order.City}";
+        var count = order.Totals.Count;
+        return $"{order.Name} — {count} item{(count == 1 ? "" : "s")}, {where}";
+    }
+
+    public static string EnquiryPushTitle(BulkEnquiry enquiry) =>
+        $"Bulk enquiry {enquiry.EnquiryId}";
+
+    public static string EnquiryPushBody(BulkEnquiry enquiry)
+    {
+        var who = string.IsNullOrWhiteSpace(enquiry.Organisation)
+            ? enquiry.Name
+            : $"{enquiry.Name} ({enquiry.Organisation})";
+        return string.Join(" — ", new[] { who, enquiry.District, enquiry.Quantity }
+            .Where(part => !string.IsNullOrWhiteSpace(part)));
+    }
+
     public static string EnquirySubject(BulkEnquiry enquiry) =>
         $"Bulk enquiry {enquiry.EnquiryId} received";
 

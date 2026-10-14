@@ -105,6 +105,8 @@ public sealed class MySqlFixture : WebApplicationFactory<Program>
             .UseSetting(Microsoft.AspNetCore.Hosting.WebHostDefaults.EnvironmentKey, "Development")
             .UseSetting("Catalog:DataPath", _dataPath)
             .UseSetting("Storefront:Admin:Passcode", AdminPasscode)
+            .UseSetting("Storefront:Notifications:Push:DevicesPath",
+                Path.Combine(Path.GetTempPath(), "gopi-api-tests", "push-devices-" + Guid.NewGuid().ToString("n") + ".json"))
             .UseSetting("Storefront:Database:ConnectionString", TestConnectionString)
 
             // Both left on deliberately: they are the defaults a deployment

@@ -207,6 +207,7 @@ internal static class EndpointAudit
             ["enquiryId"] = enquiry.GetProperty("enquiryId").GetString()!,
             ["messageId"] = message.GetProperty("messageId").GetString()!,
             ["email"] = "nobody@example.in",
+            ["token"] = Uri.EscapeDataString("ExponentPushToken[audit]"),
 
             // Scoped entries, for the routes whose placeholder name collides
             // with another list's. {id} is a banner on /api/banners/{id} and an

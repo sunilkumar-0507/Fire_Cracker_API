@@ -142,7 +142,25 @@ public sealed class NotificationOptions
 {
     public SmtpOptions Smtp { get; set; } = new();
 
+    public PushOptions Push { get; set; } = new();
+
     public bool Enabled => !string.IsNullOrWhiteSpace(Smtp.Host);
+}
+
+/// <summary>
+/// Pushes to the shop admin app. On by default because it costs nothing until
+/// a phone registers — with no devices on the list nothing is ever sent.
+/// </summary>
+public sealed class PushOptions
+{
+    /// <summary>The registered phones, relative to the content root.</summary>
+    public string DevicesPath { get; set; } = "push-devices.json";
+
+    /// <summary>
+    /// Only needed when "enhanced push security" is switched on for the app's
+    /// Expo project. Blank sends without one.
+    /// </summary>
+    public string AccessToken { get; set; } = string.Empty;
 }
 
 public sealed class SmtpOptions

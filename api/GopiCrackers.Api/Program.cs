@@ -152,9 +152,20 @@ var notifications = builder.Configuration
     .GetSection($"{StorefrontOptions.SectionName}:Notifications:Smtp:Host").Value;
 
 if (string.IsNullOrWhiteSpace(notifications))
-    builder.Services.AddSingleton<INotificationSender, LoggingNotificationSender>();
+    builder.Services.AddSingleton<LoggingNotificationSender>();
 else
-    builder.Services.AddSingleton<INotificationSender, SmtpNotificationSender>();
+    builder.Services.AddSingleton<SmtpNotificationSender>();
+
+// Push to the shop admin app sits in front of whichever email sender that is.
+// It sends nothing until a phone has registered at /api/admin/devices.
+builder.Services.AddSingleton<PushDeviceStore>();
+builder.Services.AddSingleton<ExpoPushClient>();
+builder.Services.AddSingleton<INotificationSender>(sp => new PushNotificationSender(
+    string.IsNullOrWhiteSpace(notifications)
+        ? sp.GetRequiredService<LoggingNotificationSender>()
+        : sp.GetRequiredService<SmtpNotificationSender>(),
+    sp.GetRequiredService<ExpoPushClient>(),
+    sp.GetRequiredService<ILogger<PushNotificationSender>>()));
 
 builder.Services
     .AddControllers()
@@ -428,6 +439,9 @@ app.MapGet("/", (IWebHostEnvironment env) => Results.Ok(new
         "GET    /api/admin/messages?page=&pageSize=     (X-Admin-Passcode)",
         "GET    /api/admin/subscribers?q=&page=&pageSize= (X-Admin-Passcode)",
         "DELETE /api/admin/subscribers/{email}          (X-Admin-Passcode)",
+        "GET    /api/admin/devices                      (X-Admin-Passcode)",
+        "POST   /api/admin/devices                      (X-Admin-Passcode)",
+        "DELETE /api/admin/devices/{token}              (X-Admin-Passcode)",
         "POST   /api/admin/categories                   (X-Admin-Passcode)",
         "PUT    /api/admin/categories/{id}              (X-Admin-Passcode)",
         "DELETE /api/admin/categories/{id}              (X-Admin-Passcode)",

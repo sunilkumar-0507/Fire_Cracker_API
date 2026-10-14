@@ -2,7 +2,10 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 using GopiCrackers.Api.Models;
+using GopiCrackers.Api.Services;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace GopiCrackers.Api.Tests;
 
@@ -38,6 +41,17 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
     /// </summary>
     public const string AdminPasscode = "gopi-2026";
 
+    /// <summary>This run's push list, kept out of the working tree like the uploads.</summary>
+    public string PushDevicesPath { get; } =
+        Path.Combine(Path.GetTempPath(), "gopi-api-tests", "push-devices-" + Guid.NewGuid().ToString("n") + ".json");
+
+    /// <summary>
+    /// Stands in for Expo's push service. The one exception to "nothing is
+    /// stubbed": a test run must never send a real notification, and an order
+    /// placed while a test device is registered would otherwise do exactly that.
+    /// </summary>
+    public FakeExpoPush Push { get; } = new();
+
     protected override void ConfigureWebHost(Microsoft.AspNetCore.Hosting.IWebHostBuilder builder)
         // Development so the OpenAPI document is mapped and HTTPS redirection
         // stays off — the same pipeline `dotnet run` gives you locally.
@@ -50,7 +64,11 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
             .UseSetting("Storefront:Coupons:CONFIGONLY:Type", "flat")
             .UseSetting("Storefront:Coupons:CONFIGONLY:Value", "500")
             .UseSetting("Storefront:Coupons:CONFIGONLY:MinOrder", "0")
-            .UseSetting("Storefront:Coupons:CONFIGONLY:Note", "Not an offer");
+            .UseSetting("Storefront:Coupons:CONFIGONLY:Note", "Not an offer")
+            .UseSetting("Storefront:Notifications:Push:DevicesPath", PushDevicesPath)
+            .ConfigureTestServices(services => services
+                .AddHttpClient(nameof(ExpoPushClient))
+                .ConfigurePrimaryHttpMessageHandler(() => Push));
 
     /// <summary>
     /// Internal rather than private so the MySQL fixture can take the same
@@ -97,6 +115,7 @@ public sealed class ApiFixture : WebApplicationFactory<Program>
         {
             Directory.Delete(_dataPath, recursive: true);
             if (Directory.Exists(UploadsPath)) Directory.Delete(UploadsPath, recursive: true);
+            if (File.Exists(PushDevicesPath)) File.Delete(PushDevicesPath);
         }
         catch (IOException) { /* A temp directory left behind is not a test failure. */ }
     }

@@ -315,3 +315,34 @@ public sealed record Bootstrap(
     IReadOnlyList<Banner> Banners,
     IReadOnlyList<Testimonial> Testimonials,
     IReadOnlyList<Faq> Faqs);
+
+/* -------------------------------------------------------------------------- */
+/* Push devices                                                                */
+/* -------------------------------------------------------------------------- */
+
+/// <summary>A phone running the shop admin app, as the push list keeps it.</summary>
+public sealed record PushDevice(
+    string Token,
+    string? Platform,
+    string? Name,
+    DateTimeOffset RegisteredAt,
+    DateTimeOffset LastSeen);
+
+/// <summary>What the admin app sends to <c>POST /api/admin/devices</c>.</summary>
+public sealed record PushDeviceWrite
+{
+    /// <summary>An Expo push token, <c>ExponentPushToken[…]</c>.</summary>
+    [Required(ErrorMessage = "Which push token?")]
+    [StringLength(200)]
+    [RegularExpression(@"^Expo(nent)?PushToken\[[^\]]+\]$",
+        ErrorMessage = "That is not an Expo push token.")]
+    public string Token { get; init; } = string.Empty;
+
+    /// <summary><c>android</c> or <c>ios</c>. For the list only.</summary>
+    [StringLength(20)]
+    public string? Platform { get; init; }
+
+    /// <summary>The phone's own name, so the shop can tell two handsets apart.</summary>
+    [StringLength(80)]
+    public string? Name { get; init; }
+}

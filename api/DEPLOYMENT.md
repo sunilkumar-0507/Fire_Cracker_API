@@ -7,7 +7,7 @@ The database creates itself.
 
 ## 1. What you must set
 
-Five settings. Everything else has a working default.
+Six settings. Everything else has a working default.
 
 | Setting | Why |
 |---|---|
@@ -16,6 +16,7 @@ Five settings. Everything else has a working default.
 | `Storefront:Admin:Passcode` | Blank means every admin endpoint answers **503**. The admin panel will not work until this is set. |
 | `Storefront:AllowedOrigins` | Defaults to `localhost`. A browser will block the real storefront's requests until its own URL is listed. |
 | `Storefront:Uploads:Path` | Where product photos uploaded from the admin are kept. Defaults to `uploads` inside the publish folder, which the next `dotnet publish` can wipe — point it at a folder outside it, e.g. `/var/lib/gopicrackers/uploads`, owned by the service user (`sudo mkdir -p /var/lib/gopicrackers/uploads && sudo chown www-data /var/lib/gopicrackers/uploads`). Back it up with the database. |
+| `Storefront:Notifications:Push:DevicesPath` | The phones that get a push when an order is placed (the shop admin app registers itself here). Defaults to `push-devices.json` inside the publish folder — point it next to the uploads, e.g. `/var/lib/gopicrackers/push-devices.json`. Losing it is not serious: each phone re-registers the next time the app is opened. |
 
 Set them as environment variables — `__` is the separator for nesting:
 
@@ -100,6 +101,7 @@ Environment=Storefront__Database__ConnectionString=Server=localhost;Port=3306;Da
 Environment=Storefront__Database__ServerVersion=8.0.36-mysql
 Environment=Storefront__Admin__Passcode=…
 Environment=Storefront__Uploads__Path=/var/lib/gopicrackers/uploads
+Environment=Storefront__Notifications__Push__DevicesPath=/var/lib/gopicrackers/push-devices.json
 # AllowedOrigins is set in appsettings.json instead — see section 1. An index
 # here overwrites an entry rather than adding one, and none of it is secret.
 
